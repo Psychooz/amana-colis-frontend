@@ -29,6 +29,10 @@ export const colisAPI = {
             params: { startDate , endDate }
         }),
     getStatusValues: () => api.get('/colis/status-values'),
+    getFilteredStatistics: (clientId, filters) =>
+        api.get(`/colis/client/${clientId}/statistics/filtered`, {
+            params: filters
+        }),
 };
 
 

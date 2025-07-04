@@ -17,7 +17,7 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-6">    
             <div className="d-flex justify-content-end">
               <div className="user-info">
                 <div className="text-end">
