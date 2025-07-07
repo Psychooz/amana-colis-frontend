@@ -1,92 +1,89 @@
+// src/components/statistics/ShipmentStatusChart.jsx
 import React from 'react';
-import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from 'recharts';
+import { PieChart } from '@mui/x-charts/PieChart';
+import { Card, CardContent, CardHeader, CircularProgress, Box, Typography } from '@mui/material';
+import { LocalShipping } from '@mui/icons-material';
 
 const ShipmentStatusChart = ({ data = {}, loading = false }) => {
-  const COLORS = {
-    'En cours': '#F59E0B',
-    'Retourné': '#EF4444',
-    'Livré': '#10B981'
-  };
-
+  // Transform the status data to shipment categories
   const getShipmentData = () => {
     const enCours = (data['En transit'] || 0) + (data['Déposé'] || 0) + (data['2ème présentation'] || 0);
     const retourne = data['Envoi retourné'] || 0;
     const livre = data['Envoi livré'] || 0;
 
-    return {
-      'En cours': enCours,
-      'Retourné': retourne,
-      'Livré': livre
-    };
+    return [
+      { id: 'en-cours', value: enCours, label: 'En cours', color: '#F59E0B' },
+      { id: 'retourne', value: retourne, label: 'Retourné', color: '#EF4444' },
+      { id: 'livre', value: livre, label: 'Livré', color: '#10B981' }
+    ].filter(item => item.value > 0);
   };
 
-  const shipmentData = getShipmentData();
-  const chartData = Object.entries(shipmentData).map(([status, count]) => ({
-    name: status,
-    value: count,
-    color: COLORS[status] || '#94A3B8'
-  }));
-
-  const CustomTooltip = ({ active, payload }) => {
-    if (active && payload && payload.length) {
-      return (
-        <div className="bg-white p-2 border rounded shadow">
-          <p className="mb-0">{`${payload[0].name}: ${payload[0].value}`}</p>
-        </div>
-      );
-    }
-    return null;
-  };
+  const chartData = getShipmentData();
 
   if (loading) {
     return (
-      <div className="card h-100">
-        <div className="card-header">
-          <h6 className="mb-0">Statut des envois</h6>
-        </div>
-        <div className="card-body d-flex justify-content-center align-items-center">
-          <div className="spinner-border text-primary" role="status">
-            <span className="visually-hidden">Loading...</span>
-          </div>
-        </div>
-      </div>
+      <Card sx={{ height: '100%' }}>
+        <CardHeader 
+          title="Statut des envois"
+          avatar={<LocalShipping />}
+        />
+        <CardContent>
+          <Box display="flex" justifyContent="center" alignItems="center" height={300}>
+            <CircularProgress />
+          </Box>
+        </CardContent>
+      </Card>
+    );
+  }
+
+  if (chartData.length === 0) {
+    return (
+      <Card sx={{ height: '100%' }}>
+        <CardHeader 
+          title="Statut des envois"
+          avatar={<LocalShipping />}
+        />
+        <CardContent>
+          <Box display="flex" justifyContent="center" alignItems="center" height={300}>
+            <Typography color="text.secondary">
+              Aucune donnée disponible
+            </Typography>
+          </Box>
+        </CardContent>
+      </Card>
     );
   }
 
   return (
-    <div className="card h-100">
-      <div className="card-header">
-        <h6 className="mb-0">
-          <i className="bi bi-truck me-2"></i>
-          Statut des envois
-        </h6>
-      </div>
-      <div className="card-body">
-        <ResponsiveContainer width="100%" height={300}>
-          <PieChart>
-            <Pie
-              data={chartData}
-              cx="50%"
-              cy="50%"
-              innerRadius={60}
-              outerRadius={100}
-              paddingAngle={2}
-              dataKey="value"
-            >
-              {chartData.map((entry, index) => (
-                <Cell key={`cell-${index}`} fill={entry.color} />
-              ))}
-            </Pie>
-            <Tooltip content={<CustomTooltip />} />
-            <Legend 
-              verticalAlign="bottom" 
-              height={36}
-              formatter={(value) => <span style={{ fontSize: '12px' }}>{value}</span>}
-            />
-          </PieChart>
-        </ResponsiveContainer>
-      </div>
-    </div>
+    <Card sx={{ height: '100%' }}>
+      <CardHeader 
+        title="Statut des envois"
+        avatar={<LocalShipping color="primary" />}
+      />
+      <CardContent>
+        <PieChart
+          series={[
+            {
+              data: chartData,
+              innerRadius: 50,
+              outerRadius: 100,
+              paddingAngle: 2,
+              cornerRadius: 5,
+              highlightScope: { faded: 'global', highlighted: 'item' },
+              faded: { innerRadius: 30, additionalRadius: -30, color: 'gray' },
+            },
+          ]}
+          height={300}
+          slotProps={{
+            legend: {
+              direction: 'column',
+              position: { vertical: 'bottom', horizontal: 'left' },
+              padding: 0,
+            },
+          }}
+        />
+      </CardContent>
+    </Card>
   );
 };
 

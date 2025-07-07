@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from 'react-leaflet';
-import { getCitiesWithData } from '../../data/moroccanCities';
+import { getCitiesWithData } from  '../../utils/moroccanCities';
 import 'leaflet/dist/leaflet.css';
 
 const SetMapBounds = () => {
@@ -11,6 +11,7 @@ const SetMapBounds = () => {
     const moroccanBounds = [
       [35.9, -1.0],
       [27.6, -13.2]
+      //[20.73, -18.41]
     ];
     map.fitBounds(moroccanBounds, { padding: [10, 10] });
   }, [map]);
@@ -44,7 +45,7 @@ const MoroccoMapLeaflet = ({ data = {}, loading = false }) => {
     return (
       <div className="card h-100">
         <div className="card-header">
-          <h6 className="mb-0">Répartition géographique</h6>
+          <h6 className="mb-0">Map</h6>
         </div>
         <div className="card-body d-flex justify-content-center align-items-center">
           <div className="spinner-border text-primary" role="status">
@@ -61,7 +62,7 @@ const MoroccoMapLeaflet = ({ data = {}, loading = false }) => {
         <div className="card-header">
           <h6 className="mb-0">
             <i className="bi bi-geo-alt me-2"></i>
-            Répartition géographique des envois
+            Map
           </h6>
         </div>
         <div className="card-body d-flex justify-content-center align-items-center">
@@ -77,7 +78,7 @@ const MoroccoMapLeaflet = ({ data = {}, loading = false }) => {
         <div className="d-flex justify-content-between align-items-center">
           <h6 className="mb-0">
             <i className="bi bi-geo-alt me-2"></i>
-            Répartition géographique des envois
+            Map
           </h6>
           <small className="text-muted">
             {citiesWithData.length} ville{citiesWithData.length > 1 ? 's' : ''}
@@ -98,7 +99,6 @@ const MoroccoMapLeaflet = ({ data = {}, loading = false }) => {
             <SetMapBounds />
             
             <TileLayer
-              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               maxZoom={18}
             />
@@ -133,7 +133,6 @@ const MoroccoMapLeaflet = ({ data = {}, loading = false }) => {
                     <h6 className="mb-1 fw-bold">{city.name}</h6>
                     <div className="text-muted">
                       <div><strong>{city.count}</strong> envoi{city.count > 1 ? 's' : ''}</div>
-                      <div className="small">{Math.round(city.intensity * 100)}% du volume max</div>
                     </div>
                   </div>
                 </Popup>
@@ -215,8 +214,7 @@ const MoroccoMapLeaflet = ({ data = {}, loading = false }) => {
           
           <div className="mt-2 text-center">
             <small className="text-muted">
-              Total: {citiesWithData.reduce((sum, city) => sum + city.count, 0)} envois • 
-              Cliquez sur les marqueurs pour plus de détails
+              Total: {citiesWithData.reduce((sum, city) => sum + city.count, 0)} envois
             </small>
           </div>
         </div>

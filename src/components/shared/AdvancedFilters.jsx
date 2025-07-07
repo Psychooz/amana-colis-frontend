@@ -8,7 +8,7 @@ const AdvancedFilters = ({
   showFilters, 
   onToggleFilters,
   loading = false,
-  title = "Filtres avancés"
+  title = "Filtres"
 }) => {
   const statusOptions = [
     { value: '', label: 'Tous les statuts' },
@@ -60,7 +60,7 @@ const AdvancedFilters = ({
         </div>
       </div>
       <div className="card-body">
-        
+
         <div className="row g-3 mb-3">
           <div className="col-md-2">
             <label className="form-label">Code envoi</label>

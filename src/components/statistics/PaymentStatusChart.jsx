@@ -1,79 +1,98 @@
-import React from 'react';
-import { PieChart, Pie, Cell, ResponsiveContainer, Legend } from 'recharts';
+import { PieChart } from '@mui/x-charts/PieChart';
+import { Card, CardContent, CardHeader, CircularProgress, Box, Typography, Chip } from '@mui/material';
+import { AccountBalanceWallet } from '@mui/icons-material';
 
 const PaymentStatusChart = ({ data = {}, loading = false }) => {
-  const COLORS = {
-    'Payé': '#10B981',
-    'Impayé': '#EF4444'
-  };
-
-  const chartData = Object.entries(data).map(([status, count]) => ({
-    name: status,
-    value: count,
-    color: COLORS[status] || '#94A3B8'
-  }));
+  const chartData = Object.entries(data)
+    .filter(([_, value]) => value > 0)
+    .map(([status, value]) => ({
+      id: status,
+      value: value,
+      label: status,
+      color: status === 'Payé' ? '#10B981' : '#EF4444'
+    }));
 
   const total = chartData.reduce((sum, item) => sum + item.value, 0);
   const payedPercentage = total > 0 ? Math.round((data['Payé'] || 0) / total * 100) : 0;
 
   if (loading) {
     return (
-      <div className="card h-100">
-        <div className="card-header">
-          <h6 className="mb-0">Statut des Paiements</h6>
-        </div>
-        <div className="card-body d-flex justify-content-center align-items-center">
-          <div className="spinner-border text-primary" role="status">
-            <span className="visually-hidden">Loading...</span>
-          </div>
-        </div>
-      </div>
+      <Card sx={{ height: '100%' }}>
+        <CardHeader 
+          title="Statut des Paiements"
+          avatar={<AccountBalanceWallet />}
+        />
+        <CardContent>
+          <Box display="flex" justifyContent="center" alignItems="center" height={300}>
+            <CircularProgress />
+          </Box>
+        </CardContent>
+      </Card>
+    );
+  }
+
+  if (total === 0) {
+    return (
+      <Card sx={{ height: '100%' }}>
+        <CardHeader 
+          title="Statut des Paiements"
+          avatar={<AccountBalanceWallet />}
+        />
+        <CardContent>
+          <Box display="flex" justifyContent="center" alignItems="center" height={300}>
+            <Typography color="text.secondary">
+              Aucune donnée disponible
+            </Typography>
+          </Box>
+        </CardContent>
+      </Card>
     );
   }
 
   return (
-    <div className="card h-100">
-      <div className="card-header">
-        <h6 className="mb-0">
-          <i className="bi bi-cash-coin me-2"></i>
-          Statut des Paiements
-        </h6>
-      </div>
-      <div className="card-body text-center">
-        <ResponsiveContainer width="100%" height={200}>
-          <PieChart>
-            <Pie
-              data={chartData}
-              cx="50%"
-              cy="80%"
-              startAngle={180}
-              endAngle={0}
-              innerRadius={60}
-              outerRadius={100}
-              paddingAngle={2}
-              dataKey="value"
-            >
-              {chartData.map((entry, index) => (
-                <Cell key={`cell-${index}`} fill={entry.color} />
-              ))}
-            </Pie>
-          </PieChart>
-        </ResponsiveContainer>
-        <div className="mt-3">
-          <h4 className="text-success mb-1">{payedPercentage}% Payé</h4>
-          <div className="d-flex justify-content-center gap-3">
-            <div className="d-flex align-items-center">
-              <div className="me-2" style={{ width: '12px', height: '12px', backgroundColor: '#10B981' }}></div>
-              <small>Payé ({data['Payé'] || 0})</small>
-            </div>
-            <div className="d-flex align-items-center">
-              <div className="me-2" style={{ width: '12px', height: '12px', backgroundColor: '#EF4444' }}></div>
-              <small>Impayé ({data['Impayé'] || 0})</small>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Card sx={{ height: '100%' }}>
+      <CardHeader 
+        title="Statut des Paiements"
+        avatar={<AccountBalanceWallet color="primary" />}
+      />
+      <CardContent>
+        <Box textAlign="center">
+          <Typography variant="h3" color="success.main" fontWeight="bold" mb={1}>
+            {payedPercentage}% Payé
+          </Typography>
+          
+          <PieChart
+            series={[
+              {
+                data: chartData,
+                innerRadius: 60,
+                outerRadius: 100,
+                startAngle: 90,
+                endAngle: -90,
+                cornerRadius: 10,
+              },
+            ]}
+            height={200}
+            margin={{ top: 20, bottom: 0, left: 0, right: 0 }}
+          />
+          
+          <Box display="flex" justifyContent="center" gap={2} mt={2}>
+            {chartData.map((item) => (
+              <Chip
+                key={item.id}
+                label={`${item.label}: ${item.value}`}
+                sx={{
+                  backgroundColor: item.color,
+                  color: 'white',
+                  fontWeight: 'medium'
+                }}
+                size="small"
+              />
+            ))}
+          </Box>
+        </Box>
+      </CardContent>
+    </Card>
   );
 };
 

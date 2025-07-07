@@ -1,0 +1,4668 @@
+{
+  "cities": [
+    {
+            "dataKeys": [
+                "CASABLANCA"
+            ],
+            "latitude": 33.5333,
+            "longitude": -7.5833,
+            "name": "Casablanca"
+        },
+        {
+            "dataKeys": [
+                "TANGER"
+            ],
+            "latitude": 35.7767,
+            "longitude": -5.8039,
+            "name": "Tanger"
+        },
+        {
+            "dataKeys": [
+                "FES"
+            ],
+            "latitude": 34.0433,
+            "longitude": -5.0033,
+            "name": "Fes"
+        },
+        {
+            "dataKeys": [
+                "MARRAKECH"
+            ],
+            "latitude": 31.63,
+            "longitude": -8.0089,
+            "name": "Marrakech"
+        },
+        {
+            "dataKeys": [
+                "SALE"
+            ],
+            "latitude": 34.0333,
+            "longitude": -6.8,
+            "name": "Sale"
+        },
+        {
+            "dataKeys": [
+                "OUJDA"
+            ],
+            "latitude": 34.6867,
+            "longitude": -1.9114,
+            "name": "Oujda"
+        },
+        {
+            "dataKeys": [
+                "RABAT"
+            ],
+            "latitude": 34.0209,
+            "longitude": -6.8416,
+            "name": "Rabat"
+        },
+        {
+            "dataKeys": [
+                "AGADIR"
+            ],
+            "latitude": 30.4214,
+            "longitude": -9.5831,
+            "name": "Agadir"
+        },
+        {
+            "dataKeys": [
+                "MEKNES"
+            ],
+            "latitude": 33.895,
+            "longitude": -5.5547,
+            "name": "MeknEs"
+        },
+        {
+            "dataKeys": [
+                "KENITRA"
+            ],
+            "latitude": 34.25,
+            "longitude": -6.5833,
+            "name": "Kenitra"
+        },
+        {
+            "dataKeys": [
+                "TETOUAN"
+            ],
+            "latitude": 35.5667,
+            "longitude": -5.3667,
+            "name": "TEtouan"
+        },
+        {
+            "dataKeys": [
+                "SAFI"
+            ],
+            "latitude": 32.2833,
+            "longitude": -9.2333,
+            "name": "Safi"
+        },
+        {
+            "dataKeys": [
+                "TAOURIRT"
+            ],
+            "latitude": 34.4169,
+            "longitude": -2.885,
+            "name": "Taourirt"
+        },
+        {
+            "dataKeys": [
+                "TEMARA"
+            ],
+            "latitude": 33.9267,
+            "longitude": -6.9122,
+            "name": "Temara"
+        },
+        {
+            "dataKeys": [
+                "KHENIFRA"
+            ],
+            "latitude": 32.9394,
+            "longitude": -5.6675,
+            "name": "KhEnifra"
+        },  
+        {
+            "dataKeys": [
+                "EL JADIDA"
+            ],
+            "latitude": 33.2333,
+            "longitude": -8.5,
+            "name": "El Jadida"
+        },
+        {
+            "dataKeys": [
+                "LAAYOUNE"
+            ],
+            "latitude": 27.15,
+            "longitude": -13.1989,
+            "name": "LaAyoune"
+        },
+        {
+            "dataKeys": [
+                "AIT MELLOUL"
+            ],
+            "latitude": 30.3342,
+            "longitude": -9.4972,
+            "name": "Ait Melloul"
+        },
+        {
+            "dataKeys": [
+                "BENI MELLAL"
+            ],
+            "latitude": 32.3394,
+            "longitude": -6.3608,
+            "name": "BEni Mellal"
+        },
+        {
+            "dataKeys": [
+                "BOUSKOURA"
+            ],
+            "latitude": 33.4489,
+            "longitude": -7.6486,
+            "name": "Bouskoura"
+        },
+        {
+            "dataKeys": [
+                "KOURIBGA"
+            ],
+            "latitude": 32.8833,
+            "longitude": -6.9167,
+            "name": "Kouribga"
+        },
+        {
+            "dataKeys": [
+                "MOHAMMEDIA"
+            ],
+            "latitude": 33.6833,
+            "longitude": -7.3833,
+            "name": "Mohammedia"
+        },
+        {
+            "dataKeys": [
+                "SETTAT"
+            ],
+            "latitude": 33.0,
+            "longitude": -7.6167,
+            "name": "Settat"
+        },
+        {
+            "dataKeys": [
+                "BARRECHID"
+            ],
+            "latitude": 33.2667,
+            "longitude": -7.5833,
+            "name": "Barrechid"
+        },
+        {
+            "dataKeys": [
+                "INEZGANE"
+            ],
+            "latitude": 30.3658,
+            "longitude": -9.5381,
+            "name": "Inezgane"
+        },
+        {
+            "dataKeys": [
+                "LARACHE"
+            ],
+            "latitude": 35.1833,
+            "longitude": -6.15,
+            "name": "Larache"
+        },
+        {
+            "dataKeys": [
+                "GUELMIM"
+            ],
+            "latitude": 28.9833,
+            "longitude": -10.0667,
+            "name": "Guelmim"
+        },
+        {
+            "dataKeys": [
+                "MY DRARGA"
+            ],
+            "latitude": 30.38,
+            "longitude": -9.48,
+            "name": "My Drarga"
+        },
+        {
+            "dataKeys": [
+                "KSAR EL KEBIR"
+            ],
+            "latitude": 35.009,
+            "longitude": -5.9,
+            "name": "Ksar El Kebir"
+        },
+        {
+            "dataKeys": [
+                "SKHIRATE"
+            ],
+            "latitude": 33.85,
+            "longitude": -7.03,
+            "name": "Skhirate"
+        },
+        {
+            "dataKeys": [
+                "BENI YAKHLEF"
+            ],
+            "latitude": 33.6555,
+            "longitude": -7.3221,
+            "name": "Beni Yakhlef"
+        },
+        {
+            "dataKeys": [
+                "SIDI YAHYA ZAER"
+            ],
+            "latitude": 33.7105,
+            "longitude": -6.8831,
+            "name": "Sidi Yahya Zaer"
+        },
+        {
+            "dataKeys": [
+                "BEN GUERIR"
+            ],
+            "latitude": 32.0,
+            "longitude": 14.0,
+            "name": "Ben Guerir"
+        },
+        {
+            "dataKeys": [
+                "AIT ALI"
+            ],
+            "latitude": 30.1765,
+            "longitude": -9.4886,
+            "name": "Ait Ali"
+        },
+        {
+            "dataKeys": [
+                "NADOR"
+            ],
+            "latitude": 35.1667,
+            "longitude": -2.9333,
+            "name": "Nador"
+        },
+        {
+            "dataKeys": [
+                "EL KELAA DES SRARHNA"
+            ],
+            "latitude": 32.0481,
+            "longitude": -7.4083,
+            "name": "El Kelaa des Srarhna"
+        },
+        {
+            "dataKeys": [
+                "AD DAKHLA"
+            ],
+            "latitude": 23.7081,
+            "longitude": -15.9456,
+            "name": "Ad Dakhla"
+        },
+        {
+            "dataKeys": [
+                "MOULAY ABDALLAH"
+            ],
+            "latitude": 33.1978,
+            "longitude": -8.5883,
+            "name": "Moulay Abdallah"
+        },
+        {
+            "dataKeys": [
+                "OULAD TEIMA"
+            ],
+            "latitude": 30.4,
+            "longitude": -9.2167,
+            "name": "Oulad TeIma"
+        },
+        {
+            "dataKeys": [
+                "BERKANE"
+            ],
+            "latitude": 34.9167,
+            "longitude": -2.3167,
+            "name": "Berkane"
+        },
+        {
+            "dataKeys": [
+                "AIN EL AOUDA"
+            ],
+            "latitude": 33.8111,
+            "longitude": -6.7922,
+            "name": "Ain El Aouda"
+        },
+        {
+            "dataKeys": [
+                "ERRACHIDIA"
+            ],
+            "latitude": 31.9319,
+            "longitude": -4.4244,
+            "name": "Errachidia"
+        },
+        {
+            "dataKeys": [
+                "AL FQIH BEN CALAH"
+            ],
+            "latitude": 32.5,
+            "longitude": -6.5333,
+            "name": "Al Fqih Ben Calah"
+        },
+        {
+            "dataKeys": [
+                "AD DARWA"
+            ],
+            "latitude": 33.4167,
+            "longitude": -7.5333,
+            "name": "Ad Darwa"
+        },
+        {
+            "dataKeys": [
+                "MARTIL"
+            ],
+            "latitude": 35.6167,
+            "longitude": -5.2667,
+            "name": "Martil"
+        },
+        {
+            "dataKeys": [
+                "SIDI SLIMANE"
+            ],
+            "latitude": 34.2167,
+            "longitude": -5.7,
+            "name": "Sidi Slimane"
+        },
+        {
+            "dataKeys": [
+                "OUED ZEM"
+            ],
+            "latitude": 32.8667,
+            "longitude": -6.5667,
+            "name": "Oued Zem"
+        },
+        {
+            "dataKeys": [
+                "SA\u2019ADA"
+            ],
+            "latitude": 31.621,
+            "longitude": -8.1303,
+            "name": "Sa\u2019ada"
+        },
+        {
+            "dataKeys": [
+                "AL KHMISSAT"
+            ],
+            "latitude": 33.8167,
+            "longitude": -6.0667,
+            "name": "Al Khmissat"
+        },
+        {
+            "dataKeys": [
+                "GUEZNAIA"
+            ],
+            "latitude": 35.7066,
+            "longitude": -5.9088,
+            "name": "Gueznaia"
+        },
+        {
+            "dataKeys": [
+                "WISLANE"
+            ],
+            "latitude": 30.225,
+            "longitude": -8.3801,
+            "name": "Wislane"
+        },
+        {
+            "dataKeys": [
+                "GUERCIF"
+            ],
+            "latitude": 34.2333,
+            "longitude": -3.3667,
+            "name": "Guercif"
+        },
+        {
+            "dataKeys": [
+                "WARZAT"
+            ],
+            "latitude": 30.9167,
+            "longitude": -6.9167,
+            "name": "Warzat"
+        },
+        {
+            "dataKeys": [
+                "FNIDQ"
+            ],
+            "latitude": 35.85,
+            "longitude": -5.35,
+            "name": "Fnidq"
+        },
+        {
+            "dataKeys": [
+                "SIDI QACEM"
+            ],
+            "latitude": 34.2167,
+            "longitude": -5.7,
+            "name": "Sidi Qacem"
+        },
+        {
+            "dataKeys": [
+                "SIDI BIBI"
+            ],
+            "latitude": 30.2333,
+            "longitude": -9.5333,
+            "name": "Sidi Bibi"
+        },
+        {
+            "dataKeys": [
+                "M\u2019DIQ"
+            ],
+            "latitude": 35.6858,
+            "longitude": -5.3253,
+            "name": "M\u2019diq"
+        },
+        {
+            "dataKeys": [
+                "YOUSSOUFIA"
+            ],
+            "latitude": 32.25,
+            "longitude": -8.5333,
+            "name": "Youssoufia"
+        },
+        {
+            "dataKeys": [
+                "MIDALT"
+            ],
+            "latitude": 32.68,
+            "longitude": -4.73,
+            "name": "Midalt"
+        },
+        {
+            "dataKeys": [
+                "AIN HARROUDA"
+            ],
+            "latitude": 33.6372,
+            "longitude": -7.4483,
+            "name": "AIn Harrouda"
+        },
+        {
+            "dataKeys": [
+                "SEBT OULAD NEMMA"
+            ],
+            "latitude": 32.2948,
+            "longitude": -6.7007,
+            "name": "Sebt Oulad Nemma"
+        },
+        {
+            "dataKeys": [
+                "MEHDYA"
+            ],
+            "latitude": 34.2597,
+            "longitude": -6.65,
+            "name": "Mehdya"
+        },
+        {
+            "dataKeys": [
+                "OUEZZANE"
+            ],
+            "latitude": 34.8,
+            "longitude": -5.5833,
+            "name": "Ouezzane"
+        },
+        {
+            "dataKeys": [
+                "TAROUDANNT"
+            ],
+            "latitude": 30.471,
+            "longitude": -8.8806,
+            "name": "Taroudannt"
+        },
+        {
+            "dataKeys": [
+                "SEMARA"
+            ],
+            "latitude": 26.7394,
+            "longitude": -11.6703,
+            "name": "Semara"
+        },
+        {
+            "dataKeys": [
+                "ESSAOUIRA"
+            ],
+            "latitude": 31.5131,
+            "longitude": -9.7697,
+            "name": "Essaouira"
+        },
+        {
+            "dataKeys": [
+                "TIT MELLIL"
+            ],
+            "latitude": 33.5533,
+            "longitude": -7.4822,
+            "name": "Tit Mellil"
+        },
+        {
+            "dataKeys": [
+                "SIDI BENNOUR"
+            ],
+            "latitude": 32.65,
+            "longitude": -8.4333,
+            "name": "Sidi Bennour"
+        },
+        {
+            "dataKeys": [
+                "AIN CHKEF"
+            ],
+            "latitude": 33.9652,
+            "longitude": -5.288,
+            "name": "Ain Chkef"
+        },
+        {
+            "dataKeys": [
+                "SEFROU"
+            ],
+            "latitude": 33.0,
+            "longitude": 49.0,
+            "name": "Sefrou"
+        },
+        {
+            "dataKeys": [
+                "SIDI MOHAMED LAHMAR"
+            ],
+            "latitude": 34.7167,
+            "longitude": -6.2667,
+            "name": "Sidi Mohamed Lahmar"
+        },
+        {
+            "dataKeys": [
+                "TEMSIA"
+            ],
+            "latitude": 30.36,
+            "longitude": -9.414,
+            "name": "Temsia"
+        },
+        {
+            "dataKeys": [
+                "BENI ENZAR"
+            ],
+            "latitude": 35.2667,
+            "longitude": -2.9333,
+            "name": "Beni Enzar"
+        },
+        {
+            "dataKeys": [
+                "AL HOCEIMA"
+            ],
+            "latitude": 35.2472,
+            "longitude": -3.9322,
+            "name": "Al HoceIma"
+        },
+        {
+            "dataKeys": [
+                "TIFLET"
+            ],
+            "latitude": 33.8931,
+            "longitude": -6.3069,
+            "name": "Tiflet"
+        },
+        {
+            "dataKeys": [
+                "DOUAR LAOUAMRA"
+            ],
+            "latitude": 31.8,
+            "longitude": -8.7167,
+            "name": "Douar Laouamra"
+        },
+        {
+            "dataKeys": [
+                "QASBAT TADLA"
+            ],
+            "latitude": 32.6,
+            "longitude": -6.2667,
+            "name": "Qasbat Tadla"
+        },
+        {
+            "dataKeys": [
+                "AZIYLAL"
+            ],
+            "latitude": 31.9669,
+            "longitude": -6.5694,
+            "name": "Aziylal"
+        },
+        {
+            "dataKeys": [
+                "AL AAROUI"
+            ],
+            "latitude": 34.9833,
+            "longitude": -3.0167,
+            "name": "Al Aaroui"
+        },
+        {
+            "dataKeys": [
+                "MRIRT"
+            ],
+            "latitude": 33.1667,
+            "longitude": -5.5667,
+            "name": "Mrirt"
+        },
+        {
+            "dataKeys": [
+                "CHEFCHAOUENE"
+            ],
+            "latitude": 35.1714,
+            "longitude": -5.2697,
+            "name": "Chefchaouene"
+        },
+        {
+            "dataKeys": [
+                "AOURIR"
+            ],
+            "latitude": 30.4833,
+            "longitude": -9.6333,
+            "name": "Aourir"
+        },
+        {
+            "dataKeys": [
+                "TAN-TAN"
+            ],
+            "latitude": 28.4333,
+            "longitude": -11.1,
+            "name": "Tan-Tan"
+        },
+        {
+            "dataKeys": [
+                "TINEGHIR"
+            ],
+            "latitude": 31.5147,
+            "longitude": -5.5328,
+            "name": "Tineghir"
+        },
+        {
+            "dataKeys": [
+                "TINAJDAD"
+            ],
+            "latitude": 31.5,
+            "longitude": -5.0167,
+            "name": "Tinajdad"
+        },
+        {
+            "dataKeys": [
+                "BOUKNADEL"
+            ],
+            "latitude": 34.1333,
+            "longitude": -6.7333,
+            "name": "Bouknadel"
+        },
+        {
+            "dataKeys": [
+                "DOUAR BNI MALEK"
+            ],
+            "latitude": 34.78,
+            "longitude": -5.6425,
+            "name": "Douar Bni Malek"
+        },
+        {
+            "dataKeys": [
+                "TIZNIT"
+            ],
+            "latitude": 29.7167,
+            "longitude": -9.7167,
+            "name": "Tiznit"
+        },
+        {
+            "dataKeys": [
+                "CABO BOJADOR"
+            ],
+            "latitude": 26.1333,
+            "longitude": -14.5,
+            "name": "Cabo Bojador"
+        },
+        {
+            "dataKeys": [
+                "AZEMMOUR"
+            ],
+            "latitude": 33.2878,
+            "longitude": -8.3422,
+            "name": "Azemmour"
+        },
+        {
+            "dataKeys": [
+                "JERADA"
+            ],
+            "latitude": 34.3117,
+            "longitude": -2.1636,
+            "name": "Jerada"
+        },
+        {
+            "dataKeys": [
+                "AZROU"
+            ],
+            "latitude": 33.4417,
+            "longitude": -5.2247,
+            "name": "Azrou"
+        },
+        {
+            "dataKeys": [
+                "EL AIOUN"
+            ],
+            "latitude": 34.5852,
+            "longitude": -2.5056,
+            "name": "El AIoun"
+        },
+        {
+            "dataKeys": [
+                "TAMESLOUHT"
+            ],
+            "latitude": 31.5,
+            "longitude": -8.1,
+            "name": "Tameslouht"
+        },
+        {
+            "dataKeys": [
+                "SIDI YAHIA EL GHARB"
+            ],
+            "latitude": 34.3058,
+            "longitude": -6.3058,
+            "name": "Sidi Yahia El Gharb"
+        },
+        {
+            "dataKeys": [
+                "TAOUNATE"
+            ],
+            "latitude": 34.5358,
+            "longitude": -4.64,
+            "name": "Taounate"
+        },
+        {
+            "dataKeys": [
+                "BAHHARET OULAD AYYAD"
+            ],
+            "latitude": 34.7702,
+            "longitude": -6.3047,
+            "name": "Bahharet Oulad Ayyad"
+        },
+        {
+            "dataKeys": [
+                "CHICHAOUA"
+            ],
+            "latitude": 31.5333,
+            "longitude": -8.7667,
+            "name": "Chichaoua"
+        },
+        {
+            "dataKeys": [
+                "TABOUNT"
+            ],
+            "latitude": 30.88,
+            "longitude": -6.91,
+            "name": "Tabount"
+        },
+        {
+            "dataKeys": [
+                "BENSLIMANE"
+            ],
+            "latitude": 33.6167,
+            "longitude": -7.1167,
+            "name": "Benslimane"
+        },
+        {
+            "dataKeys": [
+                "BELLAA"
+            ],
+            "latitude": 30.0314,
+            "longitude": -9.5542,
+            "name": "Bellaa"
+        },
+        {
+            "dataKeys": [
+                "ZAIO"
+            ],
+            "latitude": 34.9333,
+            "longitude": -2.7333,
+            "name": "ZaIo"
+        },
+        {
+            "dataKeys": [
+                "ZOUMI"
+            ],
+            "latitude": 34.8,
+            "longitude": -5.35,
+            "name": "Zoumi"
+        },
+        {
+            "dataKeys": [
+                "AGUELMOUS"
+            ],
+            "latitude": 33.15,
+            "longitude": -5.8333,
+            "name": "Aguelmous"
+        },
+        {
+            "dataKeys": [
+                "ZAWYAT AN NWACER"
+            ],
+            "latitude": 33.3611,
+            "longitude": -7.6114,
+            "name": "Zawyat an NwaCer"
+        },
+        {
+            "dataKeys": [
+                "ASILAH"
+            ],
+            "latitude": 35.4667,
+            "longitude": -6.0333,
+            "name": "Asilah"
+        },
+        {
+            "dataKeys": [
+                "DOUAR OULAD HSSINE"
+            ],
+            "latitude": 33.068,
+            "longitude": -8.5107,
+            "name": "Douar Oulad Hssine"
+        },
+        {
+            "dataKeys": [
+                "IMZOUREN"
+            ],
+            "latitude": 35.15,
+            "longitude": -3.85,
+            "name": "Imzouren"
+        },
+        {
+            "dataKeys": [
+                "DABOUZIYA"
+            ],
+            "latitude": 33.3064,
+            "longitude": -8.3548,
+            "name": "Dabouziya"
+        },
+        {
+            "dataKeys": [
+                "DEMNAT"
+            ],
+            "latitude": 31.7311,
+            "longitude": -7.0361,
+            "name": "Demnat"
+        },
+        {
+            "dataKeys": [
+                "BEN AHMED"
+            ],
+            "latitude": 33.0655,
+            "longitude": -7.2464,
+            "name": "Ben Ahmed"
+        },
+        {
+            "dataKeys": [
+                "OULAD HAMMOU"
+            ],
+            "latitude": 33.2499,
+            "longitude": -8.3346,
+            "name": "Oulad Hammou"
+        },
+        {
+            "dataKeys": [
+                "BOUJAD"
+            ],
+            "latitude": 32.7667,
+            "longitude": -6.4,
+            "name": "Boujad"
+        },
+        {
+            "dataKeys": [
+                "KSEBIA"
+            ],
+            "latitude": 34.2933,
+            "longitude": -6.1594,
+            "name": "Ksebia"
+        },
+        {
+            "dataKeys": [
+                "DAR BEL HAMRI"
+            ],
+            "latitude": 34.1889,
+            "longitude": -5.9697,
+            "name": "Dar Bel Hamri"
+        },
+        {
+            "dataKeys": [
+                "SIDI SMAI\u2019IL"
+            ],
+            "latitude": 32.8167,
+            "longitude": -8.5,
+            "name": "Sidi Smai\u2019il"
+        },
+        {
+            "dataKeys": [
+                "MECHRAA BEL KSIRI"
+            ],
+            "latitude": 34.56,
+            "longitude": -5.95,
+            "name": "Mechraa Bel Ksiri"
+        },
+        {
+            "dataKeys": [
+                "ZEGHANGHANE"
+            ],
+            "latitude": 35.15,
+            "longitude": -3.0,
+            "name": "Zeghanghane"
+        },
+        {
+            "dataKeys": [
+                "OULAD BARHIL"
+            ],
+            "latitude": 30.6408,
+            "longitude": -8.475,
+            "name": "Oulad Barhil"
+        },
+        {
+            "dataKeys": [
+                "AL \u2019ATTAWIA"
+            ],
+            "latitude": 31.8347,
+            "longitude": -7.3125,
+            "name": "Al \u2019Attawia"
+        },
+        {
+            "dataKeys": [
+                "BIR JDID"
+            ],
+            "latitude": 33.3737,
+            "longitude": -8.0002,
+            "name": "Bir Jdid"
+        },
+        {
+            "dataKeys": [
+                "DAR OULD ZIDOUH"
+            ],
+            "latitude": 32.3167,
+            "longitude": -6.9,
+            "name": "Dar Ould Zidouh"
+        },
+        {
+            "dataKeys": [
+                "BOU ARFA"
+            ],
+            "latitude": 32.5309,
+            "longitude": -1.965,
+            "name": "Bou Arfa"
+        },
+        {
+            "dataKeys": [
+                "OULAD ZEMAM"
+            ],
+            "latitude": 32.35,
+            "longitude": -6.6333,
+            "name": "Oulad Zemam"
+        },
+        {
+            "dataKeys": [
+                "TAZA"
+            ],
+            "latitude": 35.0639,
+            "longitude": -5.2025,
+            "name": "Taza"
+        },
+        {
+            "dataKeys": [
+                "SELOUANE"
+            ],
+            "latitude": 35.0667,
+            "longitude": -2.9333,
+            "name": "Selouane"
+        },
+        {
+            "dataKeys": [
+                "FRITISSA"
+            ],
+            "latitude": 33.6167,
+            "longitude": -3.55,
+            "name": "Fritissa"
+        },
+        {
+            "dataKeys": [
+                "SIDI ALLAL EL BAHRAOUI"
+            ],
+            "latitude": 33.983,
+            "longitude": -6.417,
+            "name": "Sidi Allal el Bahraoui"
+        },
+        {
+            "dataKeys": [
+                "ARFOUD"
+            ],
+            "latitude": 31.4361,
+            "longitude": -4.2328,
+            "name": "Arfoud"
+        },
+        {
+            "dataKeys": [
+                "SABAA AIYOUN"
+            ],
+            "latitude": 33.9,
+            "longitude": -5.3667,
+            "name": "Sabaa Aiyoun"
+        },
+        {
+            "dataKeys": [
+                "AIN CHEGGAG"
+            ],
+            "latitude": 33.8833,
+            "longitude": -5.0333,
+            "name": "AIn Cheggag"
+        },
+        {
+            "dataKeys": [
+                "MISSOUR"
+            ],
+            "latitude": 33.05,
+            "longitude": -3.9833,
+            "name": "Missour"
+        },
+        {
+            "dataKeys": [
+                "DOUAR OLAD. SALEM"
+            ],
+            "latitude": 32.8739,
+            "longitude": -8.8588,
+            "name": "Douar Olad. Salem"
+        },
+        {
+            "dataKeys": [
+                "OULAD HASSOUNE"
+            ],
+            "latitude": 31.6503,
+            "longitude": -7.8361,
+            "name": "Oulad Hassoune"
+        },
+        {
+            "dataKeys": [
+                "HAIREL NHAI"
+            ],
+            "latitude": 35.6108,
+            "longitude": -5.9186,
+            "name": "Hairel Nhai"
+        },
+        {
+            "dataKeys": [
+                "SIDI LMOKHTAR"
+            ],
+            "latitude": 31.57,
+            "longitude": -9.01,
+            "name": "Sidi Lmokhtar"
+        },
+        {
+            "dataKeys": [
+                "LAMZOUDIA"
+            ],
+            "latitude": 31.5833,
+            "longitude": -8.4833,
+            "name": "Lamzoudia"
+        },
+        {
+            "dataKeys": [
+                "OURIKA WAWRMAS"
+            ],
+            "latitude": 30.7167,
+            "longitude": -6.5333,
+            "name": "Ourika Wawrmas"
+        },
+        {
+            "dataKeys": [
+                "DOUAR OULAD AJ-JABRI"
+            ],
+            "latitude": 32.2567,
+            "longitude": -6.7839,
+            "name": "Douar Oulad Aj-jabri"
+        },
+        {
+            "dataKeys": [
+                "ECHEMMAIA EST"
+            ],
+            "latitude": 32.0786,
+            "longitude": -8.6325,
+            "name": "Echemmaia Est"
+        },
+        {
+            "dataKeys": [
+                "OUAOULA"
+            ],
+            "latitude": 31.8667,
+            "longitude": -6.75,
+            "name": "Ouaoula"
+        },
+        {
+            "dataKeys": [
+                "KHENICHET-SUR OUERRHA"
+            ],
+            "latitude": 34.4333,
+            "longitude": -5.6667,
+            "name": "Khenichet-sur Ouerrha"
+        },
+        {
+            "dataKeys": [
+                "ZAGORA"
+            ],
+            "latitude": 30.3306,
+            "longitude": -5.8381,
+            "name": "Zagora"
+        },
+        {
+            "dataKeys": [
+                "RICH"
+            ],
+            "latitude": 32.2583,
+            "longitude": -4.5056,
+            "name": "Rich"
+        },
+        {
+            "dataKeys": [
+                "SIDI ABDEL AZIZ"
+            ],
+            "latitude": 33.0494,
+            "longitude": -8.6886,
+            "name": "Sidi Abdel Aziz"
+        },
+        {
+            "dataKeys": [
+                "OULAD YAICH"
+            ],
+            "latitude": 32.4167,
+            "longitude": -6.3333,
+            "name": "Oulad YaIch"
+        },
+        {
+            "dataKeys": [
+                "ARBAOUA"
+            ],
+            "latitude": 34.9,
+            "longitude": -5.9167,
+            "name": "Arbaoua"
+        },
+        {
+            "dataKeys": [
+                "OULAD SAID"
+            ],
+            "latitude": 32.632,
+            "longitude": -8.8456,
+            "name": "Oulad Said"
+        },
+        {
+            "dataKeys": [
+                "ZAWYAT ECH CHEIKH"
+            ],
+            "latitude": 32.6414,
+            "longitude": -5.9206,
+            "name": "Zawyat ech CheIkh"
+        },
+        {
+            "dataKeys": [
+                "IMINTANOUT"
+            ],
+            "latitude": 31.16,
+            "longitude": -8.85,
+            "name": "Imi-n-Tanout"
+        },
+        {
+            "dataKeys": [
+                "BOURDOUD"
+            ],
+            "latitude": 34.5922,
+            "longitude": -4.5492,
+            "name": "Bourdoud"
+        },
+        {
+            "dataKeys": [
+                "BOUREIT"
+            ],
+            "latitude": 34.9833,
+            "longitude": -4.9167,
+            "name": "BoureIt"
+        },
+        {
+            "dataKeys": [
+                "AIN AICHA"
+            ],
+            "latitude": 34.4833,
+            "longitude": -4.7,
+            "name": "Ain Aicha"
+        },
+        {
+            "dataKeys": [
+                "SEBT GZOULA"
+            ],
+            "latitude": 32.1167,
+            "longitude": -9.0833,
+            "name": "Sebt Gzoula"
+        },
+        {
+            "dataKeys": [
+                "DOUAR OULED AYAD"
+            ],
+            "latitude": 32.2,
+            "longitude": -6.7975,
+            "name": "Douar Ouled Ayad"
+        },
+        {
+            "dataKeys": [
+                "DOUAR \u2019AYN DFALI"
+            ],
+            "latitude": 34.599,
+            "longitude": -5.5488,
+            "name": "Douar \u2019Ayn Dfali"
+        },
+        {
+            "dataKeys": [
+                "MOGRANE"
+            ],
+            "latitude": 34.4167,
+            "longitude": -6.4333,
+            "name": "Mograne"
+        },
+        {
+            "dataKeys": [
+                "TAMOROT"
+            ],
+            "latitude": 34.9333,
+            "longitude": -4.7833,
+            "name": "Tamorot"
+        },
+        {
+            "dataKeys": [
+                "FOUM EL ANSER"
+            ],
+            "latitude": 32.3718,
+            "longitude": -6.2613,
+            "name": "Foum el Anser"
+        },
+        {
+            "dataKeys": [
+                "SOUK TLET EL GHARB"
+            ],
+            "latitude": 34.6211,
+            "longitude": -6.1336,
+            "name": "Souk Tlet El Gharb"
+        },
+        {
+            "dataKeys": [
+                "SETTI FATMA"
+            ],
+            "latitude": 31.2256,
+            "longitude": -7.6758,
+            "name": "Setti Fatma"
+        },
+        {
+            "dataKeys": [
+                "SKOURA"
+            ],
+            "latitude": 31.0606,
+            "longitude": -6.5556,
+            "name": "Skoura"
+        },
+        {
+            "dataKeys": [
+                "MNASRA"
+            ],
+            "latitude": 34.3603,
+            "longitude": -6.5508,
+            "name": "Mnasra"
+        },
+        {
+            "dataKeys": [
+                "OULAD SALMANE"
+            ],
+            "latitude": 34.3356,
+            "longitude": -6.4604,
+            "name": "Oulad Salmane"
+        },
+        {
+            "dataKeys": [
+                "ZEGZEL"
+            ],
+            "latitude": 34.8407,
+            "longitude": -2.3543,
+            "name": "Zegzel"
+        },
+        {
+            "dataKeys": [
+                "AYT MOHAMED"
+            ],
+            "latitude": 32.5667,
+            "longitude": -6.9833,
+            "name": "Ayt Mohamed"
+        },
+        {
+            "dataKeys": [
+                "EL HAJEB"
+            ],
+            "latitude": 33.6928,
+            "longitude": -5.3711,
+            "name": "El Hajeb"
+        },
+        {
+            "dataKeys": [
+                "DOUAR IMOUKKANE"
+            ],
+            "latitude": 35.0298,
+            "longitude": -4.8125,
+            "name": "Douar Imoukkane"
+        },
+        {
+            "dataKeys": [
+                "EL GHIATE"
+            ],
+            "latitude": 32.0331,
+            "longitude": -9.1625,
+            "name": "El Ghiate"
+        },
+        {
+            "dataKeys": [
+                "TNINE LGHARBIA"
+            ],
+            "latitude": 32.5719,
+            "longitude": -8.8568,
+            "name": "Tnine Lgharbia"
+        },
+        {
+            "dataKeys": [
+                "AIN DFALI"
+            ],
+            "latitude": 34.5984,
+            "longitude": -5.5473,
+            "name": "Ain Dfali"
+        },
+        {
+            "dataKeys": [
+                "DOUAR AZLA"
+            ],
+            "latitude": 35.5564,
+            "longitude": -5.2453,
+            "name": "Douar Azla"
+        },
+        {
+            "dataKeys": [
+                "AIT BOUZIYANE"
+            ],
+            "latitude": 33.8167,
+            "longitude": -5.2749,
+            "name": "Ait Bouziyane"
+        },
+        {
+            "dataKeys": [
+                "SIDI IFNI"
+            ],
+            "latitude": 29.3833,
+            "longitude": -10.1667,
+            "name": "Sidi Ifni"
+        },
+        {
+            "dataKeys": [
+                "HADDADA"
+            ],
+            "latitude": 34.2236,
+            "longitude": -6.5111,
+            "name": "Haddada"
+        },
+        {
+            "dataKeys": [
+                "ARBI\u2019A TIGHADWIYN"
+            ],
+            "latitude": 31.4279,
+            "longitude": -7.5253,
+            "name": "Arbi\u2019a Tighadwiyn"
+        },
+        {
+            "dataKeys": [
+                "SIDI ALLAL TAZI"
+            ],
+            "latitude": 34.5197,
+            "longitude": -6.3236,
+            "name": "Sidi Allal Tazi"
+        },
+        {
+            "dataKeys": [
+                "HAD OULAD ISSA"
+            ],
+            "latitude": 32.9519,
+            "longitude": -8.6982,
+            "name": "Had Oulad Issa"
+        },
+        {
+            "dataKeys": [
+                "BOUMIA"
+            ],
+            "latitude": 32.7228,
+            "longitude": -5.1053,
+            "name": "Boumia"
+        },
+        {
+            "dataKeys": [
+                "OULAD EMBAREK"
+            ],
+            "latitude": 32.2833,
+            "longitude": -6.4667,
+            "name": "Oulad Embarek"
+        },
+        {
+            "dataKeys": [
+                "CHOUAFA"
+            ],
+            "latitude": 34.7667,
+            "longitude": -6.05,
+            "name": "Chouafa"
+        },
+        {
+            "dataKeys": [
+                "BOUZNIKA"
+            ],
+            "latitude": 33.7897,
+            "longitude": -7.1575,
+            "name": "Bouznika"
+        },
+        {
+            "dataKeys": [
+                "TIGHEDOUINE"
+            ],
+            "latitude": 31.4236,
+            "longitude": -7.5208,
+            "name": "Tighedouine"
+        },
+        {
+            "dataKeys": [
+                "AIT BEN DAOUDI"
+            ],
+            "latitude": 31.6345,
+            "longitude": -7.644,
+            "name": "Ait Ben Daoudi"
+        },
+        {
+            "dataKeys": [
+                "SAFSAF"
+            ],
+            "latitude": 34.5581,
+            "longitude": -6.0078,
+            "name": "Safsaf"
+        },
+        {
+            "dataKeys": [
+                "ALNIF"
+            ],
+            "latitude": 31.1167,
+            "longitude": -5.1667,
+            "name": "Alnif"
+        },
+        {
+            "dataKeys": [
+                "KARIA BA MOHAMED"
+            ],
+            "latitude": 34.3667,
+            "longitude": -5.2,
+            "name": "Karia Ba Mohamed"
+        },
+        {
+            "dataKeys": [
+                "SAKA"
+            ],
+            "latitude": 34.6167,
+            "longitude": -3.4167,
+            "name": "Saka"
+        },
+        {
+            "dataKeys": [
+                "SIDI ABDELKADER"
+            ],
+            "latitude": 33.0494,
+            "longitude": -8.6886,
+            "name": "Sidi Abdelkader"
+        },
+        {
+            "dataKeys": [
+                "SIDI RAHAL"
+            ],
+            "latitude": 33.7897,
+            "longitude": -7.1575,
+            "name": "Sidi Rahal"
+        },
+        {
+            "dataKeys": [
+                "TAMALLALT"
+            ],
+            "latitude": 31.8289,
+            "longitude": -7.5261,
+            "name": "Tamallalt"
+        },
+        {
+            "dataKeys": [
+                "RECANI"
+            ],
+            "latitude": 31.2859,
+            "longitude": -4.2751,
+            "name": "ReCani"
+        },
+        {
+            "dataKeys": [
+                "EL GARA"
+            ],
+            "latitude": 33.1119,
+            "longitude": -7.4058,
+            "name": "El Gara"
+        },
+        {
+            "dataKeys": [
+                "SIDI JABER"
+            ],
+            "latitude": 32.3833,
+            "longitude": -6.4167,
+            "name": "Sidi Jaber"
+        },
+        {
+            "dataKeys": [
+                "SIDI CHIKER"
+            ],
+            "latitude": 31.7453,
+            "longitude": -8.7069,
+            "name": "Sidi Chiker"
+        },
+        {
+            "dataKeys": [
+                "TIDILI MASFIYWAT"
+            ],
+            "latitude": 31.4667,
+            "longitude": -7.6167,
+            "name": "Tidili Masfiywat"
+        },
+        {
+            "dataKeys": [
+                "AFOURAR"
+            ],
+            "latitude": 32.2167,
+            "longitude": -6.5,
+            "name": "Afourar"
+        },
+        {
+            "dataKeys": [
+                "DOUAR LAMRABIH"
+            ],
+            "latitude": 34.8167,
+            "longitude": -5.8167,
+            "name": "Douar Lamrabih"
+        },
+        {
+            "dataKeys": [
+                "OULAD FRAJ"
+            ],
+            "latitude": 32.9667,
+            "longitude": -8.2333,
+            "name": "Oulad Fraj"
+        },
+        {
+            "dataKeys": [
+                "TAHLA"
+            ],
+            "latitude": 34.05,
+            "longitude": -4.42,
+            "name": "Tahla"
+        },
+        {
+            "dataKeys": [
+                "TARHZIRT"
+            ],
+            "latitude": 32.4333,
+            "longitude": -6.1833,
+            "name": "Tarhzirt"
+        },
+        {
+            "dataKeys": [
+                "AIT BOUCHTA"
+            ],
+            "latitude": 35.0986,
+            "longitude": -3.8397,
+            "name": "AIt Bouchta"
+        },
+        {
+            "dataKeys": [
+                "SIDI TAIBI"
+            ],
+            "latitude": 34.1917,
+            "longitude": -6.6845,
+            "name": "Sidi Taibi"
+        },
+        {
+            "dataKeys": [
+                "EL KSIBA"
+            ],
+            "latitude": 32.5681,
+            "longitude": -6.0308,
+            "name": "El Ksiba"
+        },
+        {
+            "dataKeys": [
+                "BNI FRASSEN"
+            ],
+            "latitude": 34.3833,
+            "longitude": -4.3833,
+            "name": "Bni Frassen"
+        },
+        {
+            "dataKeys": [
+                "LALLA MIMOUNA"
+            ],
+            "latitude": 34.85,
+            "longitude": -6.0669,
+            "name": "Lalla Mimouna"
+        },
+        {
+            "dataKeys": [
+                "TAMRI"
+            ],
+            "latitude": 30.695,
+            "longitude": -9.825,
+            "name": "Tamri"
+        },
+        {
+            "dataKeys": [
+                "JNANE BOUIH"
+            ],
+            "latitude": 32.0308,
+            "longitude": -8.7894,
+            "name": "Jnane Bouih"
+        },
+        {
+            "dataKeys": [
+                "IMI N\u2019OULAOUN"
+            ],
+            "latitude": 31.4224,
+            "longitude": -6.5641,
+            "name": "Imi n\u2019Oulaoun"
+        },
+        {
+            "dataKeys": [
+                "NZALAT LAADAM"
+            ],
+            "latitude": 32.1,
+            "longitude": -7.95,
+            "name": "Nzalat Laadam"
+        },
+        {
+            "dataKeys": [
+                "AIT BOUSARANE"
+            ],
+            "latitude": 31.7318,
+            "longitude": -7.0876,
+            "name": "Ait Bousarane"
+        },
+        {
+            "dataKeys": [
+                "AL BROUJ"
+            ],
+            "latitude": 32.505,
+            "longitude": -7.1927,
+            "name": "Al Brouj"
+        },
+        {
+            "dataKeys": [
+                "JDOUR"
+            ],
+            "latitude": 32.1269,
+            "longitude": -8.7633,
+            "name": "Jdour"
+        },
+        {
+            "dataKeys": [
+                "DOUAR AIT SIDI DAOUD"
+            ],
+            "latitude": 31.6347,
+            "longitude": -7.6444,
+            "name": "Douar Ait Sidi Daoud"
+        },
+        {
+            "dataKeys": [
+                "TAMGROUT"
+            ],
+            "latitude": 30.2667,
+            "longitude": -5.6667,
+            "name": "Tamgrout"
+        },
+        {
+            "dataKeys": [
+                "LAAOUAMA"
+            ],
+            "latitude": 35.7167,
+            "longitude": -5.8,
+            "name": "Laaouama"
+        },
+        {
+            "dataKeys": [
+                "\u2019ALI BEN SLIMAN"
+            ],
+            "latitude": 31.91,
+            "longitude": -7.21,
+            "name": "\u2019Ali Ben Sliman"
+        },
+        {
+            "dataKeys": [
+                "MAHBES"
+            ],
+            "latitude": 27.416,
+            "longitude": -9.051,
+            "name": "MahbEs"
+        },
+        {
+            "dataKeys": [
+                "STATION DES ESSAIS M.V.A."
+            ],
+            "latitude": 34.9352,
+            "longitude": -2.4306,
+            "name": "Station des Essais M.V.A."
+        },
+        {
+            "dataKeys": [
+                "LAATATRA"
+            ],
+            "latitude": 32.6315,
+            "longitude": -8.4148,
+            "name": "Laatatra"
+        },
+        {
+            "dataKeys": [
+                "SIDI YAKOUB"
+            ],
+            "latitude": 31.6667,
+            "longitude": -7.0667,
+            "name": "Sidi Yakoub"
+        },
+        {
+            "dataKeys": [
+                "MOUL EL BERGUI"
+            ],
+            "latitude": 32.5113,
+            "longitude": -8.9849,
+            "name": "Moul El Bergui"
+        },
+        {
+            "dataKeys": [
+                "MALLOUSSA"
+            ],
+            "latitude": 35.7333,
+            "longitude": -5.6333,
+            "name": "Malloussa"
+        },
+        {
+            "dataKeys": [
+                "TALSINT"
+            ],
+            "latitude": 32.5398,
+            "longitude": -3.4408,
+            "name": "Talsint"
+        },
+        {
+            "dataKeys": [
+                "AIT MAJDANE"
+            ],
+            "latitude": 31.8514,
+            "longitude": -6.9658,
+            "name": "AIt Majdane"
+        },
+        {
+            "dataKeys": [
+                "BNI BOUAYACH"
+            ],
+            "latitude": 35.1051,
+            "longitude": -3.8403,
+            "name": "Bni Bouayach"
+        },
+        {
+            "dataKeys": [
+                "SAHEL"
+            ],
+            "latitude": 34.9667,
+            "longitude": -4.55,
+            "name": "Sahel"
+        },
+        {
+            "dataKeys": [
+                "HAD ZRAQTANE"
+            ],
+            "latitude": 31.45,
+            "longitude": -7.4,
+            "name": "Had Zraqtane"
+        },
+        {
+            "dataKeys": [
+                "AIT TAMLIL"
+            ],
+            "latitude": 31.48,
+            "longitude": -6.94,
+            "name": "AIt Tamlil"
+        },
+        {
+            "dataKeys": [
+                "BOU IZAKARN"
+            ],
+            "latitude": 29.1667,
+            "longitude": -9.7333,
+            "name": "Bou Izakarn"
+        },
+        {
+            "dataKeys": [
+                "LAMRASLA"
+            ],
+            "latitude": 32.0247,
+            "longitude": -8.9153,
+            "name": "Lamrasla"
+        },
+        {
+            "dataKeys": [
+                "LQOLIAA"
+            ],
+            "latitude": 30.2908,
+            "longitude": -9.4661,
+            "name": "Lqoliaa"
+        },
+        {
+            "dataKeys": [
+                "SIDI REDOUANE"
+            ],
+            "latitude": 34.6833,
+            "longitude": -5.45,
+            "name": "Sidi Redouane"
+        },
+        {
+            "dataKeys": [
+                "ZAOUIA AIT ISHAK"
+            ],
+            "latitude": 32.76,
+            "longitude": -5.7233,
+            "name": "ZaouIa AIt Ishak"
+        },
+        {
+            "dataKeys": [
+                "QAL\u2019AT MGOUNA"
+            ],
+            "latitude": 31.2414,
+            "longitude": -6.1283,
+            "name": "Qal\u2019at Mgouna"
+        },
+        {
+            "dataKeys": [
+                "OULMES"
+            ],
+            "latitude": 33.445,
+            "longitude": -6.0011,
+            "name": "Oulmes"
+        },
+        {
+            "dataKeys": [
+                "DOUAR OULAD MBAREK"
+            ],
+            "latitude": 34.2833,
+            "longitude": -4.3167,
+            "name": "Douar Oulad Mbarek"
+        },
+        {
+            "dataKeys": [
+                "BNI TAJJIT"
+            ],
+            "latitude": 32.2833,
+            "longitude": -3.4833,
+            "name": "Bni Tajjit"
+        },
+        {
+            "dataKeys": [
+                "DAR CHAIFAT"
+            ],
+            "latitude": 32.55,
+            "longitude": -7.5,
+            "name": "Dar Chaifat"
+        },
+        {
+            "dataKeys": [
+                "MILLA\u2019AB"
+            ],
+            "latitude": 31.4737,
+            "longitude": -4.7424,
+            "name": "Milla\u2019ab"
+        },
+        {
+            "dataKeys": [
+                "CHOUAFAA"
+            ],
+            "latitude": 34.7624,
+            "longitude": -6.045,
+            "name": "Chouafaa"
+        },
+        {
+            "dataKeys": [
+                "SIDI ZOUINE"
+            ],
+            "latitude": 31.6706,
+            "longitude": -8.3508,
+            "name": "Sidi Zouine"
+        },
+        {
+            "dataKeys": [
+                "KSAR SGHIR"
+            ],
+            "latitude": 35.8419,
+            "longitude": -5.5586,
+            "name": "Ksar Sghir"
+        },
+        {
+            "dataKeys": [
+                "AIT YAAZEM"
+            ],
+            "latitude": 33.7333,
+            "longitude": -5.5833,
+            "name": "Ait Yaazem"
+        },
+        {
+            "dataKeys": [
+                "DOUAR LAMJAARA"
+            ],
+            "latitude": 34.6147,
+            "longitude": -5.2887,
+            "name": "Douar Lamjaara"
+        },
+        {
+            "dataKeys": [
+                "BOU FEKRANE"
+            ],
+            "latitude": 33.7667,
+            "longitude": -5.4833,
+            "name": "Bou Fekrane"
+        },
+        {
+            "dataKeys": [
+                "ZIRARA"
+            ],
+            "latitude": 32.35,
+            "longitude": -8.5333,
+            "name": "Zirara"
+        },
+        {
+            "dataKeys": [
+                "KETAMA"
+            ],
+            "latitude": 34.9158,
+            "longitude": -4.5686,
+            "name": "Ketama"
+        },
+        {
+            "dataKeys": [
+                "BNI ANSAR"
+            ],
+            "latitude": 35.1586,
+            "longitude": -4.9128,
+            "name": "Bni Ansar"
+        },
+        {
+            "dataKeys": [
+                "SIDI ETTIJI"
+            ],
+            "latitude": 32.1717,
+            "longitude": -8.8686,
+            "name": "Sidi Ettiji"
+        },
+        {
+            "dataKeys": [
+                "ANAZZOU"
+            ],
+            "latitude": 31.6753,
+            "longitude": -7.2672,
+            "name": "Anazzou"
+        },
+        {
+            "dataKeys": [
+                "BNI RZINE"
+            ],
+            "latitude": 35.0108,
+            "longitude": -4.7262,
+            "name": "Bni Rzine"
+        },
+        {
+            "dataKeys": [
+                "SIDI LAMINE"
+            ],
+            "latitude": 32.9,
+            "longitude": -6.05,
+            "name": "Sidi Lamine"
+        },
+        {
+            "dataKeys": [
+                "AIT YOUSSEF OU ALI"
+            ],
+            "latitude": 31.9833,
+            "longitude": -5.7833,
+            "name": "AIt Youssef Ou Ali"
+        },
+        {
+            "dataKeys": [
+                "OULAD AMRANE"
+            ],
+            "latitude": 32.2833,
+            "longitude": -9.2333,
+            "name": "Oulad Amrane"
+        },
+        {
+            "dataKeys": [
+                "TAGALFT"
+            ],
+            "latitude": 32.2389,
+            "longitude": -6.1238,
+            "name": "Tagalft"
+        },
+        {
+            "dataKeys": [
+                "GHOUAZI"
+            ],
+            "latitude": 34.4667,
+            "longitude": -5.3,
+            "name": "Ghouazi"
+        },
+        {
+            "dataKeys": [
+                "TABANT"
+            ],
+            "latitude": 31.6581,
+            "longitude": -6.42,
+            "name": "Tabant"
+        },
+        {
+            "dataKeys": [
+                "OUED JDIDA"
+            ],
+            "latitude": 33.9333,
+            "longitude": -5.3667,
+            "name": "Oued Jdida"
+        },
+        {
+            "dataKeys": [
+                "SEBT AIT SAGHIOUCHEN"
+            ],
+            "latitude": 34.0122,
+            "longitude": -4.5536,
+            "name": "Sebt AIt Saghiouchen"
+        },
+        {
+            "dataKeys": [
+                "BOUAROUSS"
+            ],
+            "latitude": 34.3667,
+            "longitude": -4.8167,
+            "name": "Bouarouss"
+        },
+        {
+            "dataKeys": [
+                "AC-CAHRIJ"
+            ],
+            "latitude": 31.8,
+            "longitude": -7.14,
+            "name": "AC-Cahrij"
+        },
+        {
+            "dataKeys": [
+                "AHFIR"
+            ],
+            "latitude": 34.9514,
+            "longitude": -2.1025,
+            "name": "Ahfir"
+        },
+        {
+            "dataKeys": [
+                "ASNI"
+            ],
+            "latitude": 31.25,
+            "longitude": -7.9833,
+            "name": "Asni"
+        },
+        {
+            "dataKeys": [
+                "BENI ZOULI"
+            ],
+            "latitude": 30.4839,
+            "longitude": -5.8619,
+            "name": "Beni Zouli"
+        },
+        {
+            "dataKeys": [
+                "AIT FASKA"
+            ],
+            "latitude": 31.5058,
+            "longitude": -7.7161,
+            "name": "AIt Faska"
+        },
+        {
+            "dataKeys": [
+                "MOULAY BOUSSELHAM"
+            ],
+            "latitude": 34.8786,
+            "longitude": -6.2933,
+            "name": "Moulay Bousselham"
+        },
+        {
+            "dataKeys": [
+                "KNEMIS DADES"
+            ],
+            "latitude": 31.309,
+            "longitude": -6.028,
+            "name": "Knemis Dades"
+        },
+        {
+            "dataKeys": [
+                "AGHBAL"
+            ],
+            "latitude": 34.9394,
+            "longitude": -2.1272,
+            "name": "Aghbal"
+        },
+        {
+            "dataKeys": [
+                "AIN TAOUJDAT"
+            ],
+            "latitude": 33.9333,
+            "longitude": -5.2167,
+            "name": "AIn Taoujdat"
+        },
+        {
+            "dataKeys": [
+                "SIDI AZZOUZ"
+            ],
+            "latitude": 31.76,
+            "longitude": -7.66,
+            "name": "Sidi Azzouz"
+        },
+        {
+            "dataKeys": [
+                "ZEMRANE"
+            ],
+            "latitude": 31.67,
+            "longitude": -7.44,
+            "name": "Zemrane"
+        },
+        {
+            "dataKeys": [
+                "CAIDAT SIDI BOUBKER EL HAJ"
+            ],
+            "latitude": 34.9148,
+            "longitude": -6.0735,
+            "name": "Caidat Sidi Boubker El Haj"
+        },
+        {
+            "dataKeys": [
+                "GOURRAMA"
+            ],
+            "latitude": 32.3333,
+            "longitude": -4.0833,
+            "name": "Gourrama"
+        },
+        {
+            "dataKeys": [
+                "RAS EL OUED"
+            ],
+            "latitude": 34.15,
+            "longitude": -4.0,
+            "name": "Ras el Oued"
+        },
+        {
+            "dataKeys": [
+                "JBABRA"
+            ],
+            "latitude": 34.4314,
+            "longitude": -4.9642,
+            "name": "Jbabra"
+        },
+        {
+            "dataKeys": [
+                "OULAD ALIOUA"
+            ],
+            "latitude": 30.3761,
+            "longitude": -9.3203,
+            "name": "Oulad Alioua"
+        },
+        {
+            "dataKeys": [
+                "MELLILA"
+            ],
+            "latitude": 33.3833,
+            "longitude": -7.1333,
+            "name": "Mellila"
+        },
+        {
+            "dataKeys": [
+                "IHADDADENE"
+            ],
+            "latitude": 31.2,
+            "longitude": -9.65,
+            "name": "Ihaddadene"
+        },
+        {
+            "dataKeys": [
+                "DRIOUCH"
+            ],
+            "latitude": 34.9833,
+            "longitude": -3.3833,
+            "name": "Driouch"
+        },
+        {
+            "dataKeys": [
+                "TARHZOUT N\u2019AIT YAZZA"
+            ],
+            "latitude": 31.4567,
+            "longitude": -5.4192,
+            "name": "Tarhzout n\u2019AIt Yazza"
+        },
+        {
+            "dataKeys": [
+                "SEBT BNI SMITH"
+            ],
+            "latitude": 35.1373,
+            "longitude": -4.7107,
+            "name": "Sebt Bni Smith"
+        },
+        {
+            "dataKeys": [
+                "SKHOUR REHAMNA"
+            ],
+            "latitude": 32.4833,
+            "longitude": -7.9167,
+            "name": "Skhour Rehamna"
+        },
+        {
+            "dataKeys": [
+                "SABBAH"
+            ],
+            "latitude": 33.8036,
+            "longitude": -7.0372,
+            "name": "Sabbah"
+        },
+        {
+            "dataKeys": [
+                "\u2019AYN BNI MATHAR"
+            ],
+            "latitude": 34.0889,
+            "longitude": -2.0247,
+            "name": "\u2019Ayn Bni Mathar"
+        },
+        {
+            "dataKeys": [
+                "AL HAMMAM"
+            ],
+            "latitude": 33.1868,
+            "longitude": -5.6225,
+            "name": "Al Hammam"
+        },
+        {
+            "dataKeys": [
+                "MIDAR"
+            ],
+            "latitude": 34.95,
+            "longitude": -3.5333,
+            "name": "Midar"
+        },
+        {
+            "dataKeys": [
+                "AWLOUZ"
+            ],
+            "latitude": 30.7,
+            "longitude": -8.15,
+            "name": "Awlouz"
+        },
+        {
+            "dataKeys": [
+                "SOUK ET-TLETA DES OULAD HAMDANE"
+            ],
+            "latitude": 33.1047,
+            "longitude": -8.2495,
+            "name": "Souk Et-Tleta des Oulad Hamdane"
+        },
+        {
+            "dataKeys": [
+                "GALAZ"
+            ],
+            "latitude": 34.55,
+            "longitude": -4.8,
+            "name": "Galaz"
+        },
+        {
+            "dataKeys": [
+                "DOUAR EL ARBAA BOU QUORRA"
+            ],
+            "latitude": 34.749,
+            "longitude": -5.1982,
+            "name": "Douar El Arbaa Bou Quorra"
+        },
+        {
+            "dataKeys": [
+                "TAGOUNITE"
+            ],
+            "latitude": 29.9585,
+            "longitude": -5.9151,
+            "name": "Tagounite"
+        },
+        {
+            "dataKeys": [
+                "AIN MEDIOUNA"
+            ],
+            "latitude": 34.5,
+            "longitude": -4.55,
+            "name": "AIn Mediouna"
+        },
+        {
+            "dataKeys": [
+                "MQAM AT TOLBA"
+            ],
+            "latitude": 33.9375,
+            "longitude": -6.2544,
+            "name": "Mqam at Tolba"
+        },
+        {
+            "dataKeys": [
+                "BEN TAIEB"
+            ],
+            "latitude": 35.0837,
+            "longitude": -3.4696,
+            "name": "Ben Taieb"
+        },
+        {
+            "dataKeys": [
+                "\u2019TLAT BNI OUKIL"
+            ],
+            "latitude": 32.577,
+            "longitude": -6.84,
+            "name": "\u2019Tlat Bni Oukil"
+        },
+        {
+            "dataKeys": [
+                "RATBA"
+            ],
+            "latitude": 34.7833,
+            "longitude": -4.9333,
+            "name": "Ratba"
+        },
+        {
+            "dataKeys": [
+                "AIN KANSARA"
+            ],
+            "latitude": 34.15,
+            "longitude": -4.8314,
+            "name": "Ain Kansara"
+        },
+        {
+            "dataKeys": [
+                "EZZHILIGA"
+            ],
+            "latitude": 33.3,
+            "longitude": -6.5333,
+            "name": "Ezzhiliga"
+        },
+        {
+            "dataKeys": [
+                "BOULA\u2019WANE"
+            ],
+            "latitude": 32.8607,
+            "longitude": -8.053,
+            "name": "Boula\u2019wane"
+        },
+        {
+            "dataKeys": [
+                "BOU DJENIBA"
+            ],
+            "latitude": 32.9,
+            "longitude": -6.7833,
+            "name": "Bou Djeniba"
+        },
+        {
+            "dataKeys": [
+                "OULAD DRISS"
+            ],
+            "latitude": 31.9996,
+            "longitude": -8.2276,
+            "name": "Oulad Driss"
+        },
+        {
+            "dataKeys": [
+                "MEDIOUNA"
+            ],
+            "latitude": 33.45,
+            "longitude": -7.51,
+            "name": "Mediouna"
+        },
+        {
+            "dataKeys": [
+                "ESBIAAT"
+            ],
+            "latitude": 32.2044,
+            "longitude": -8.5608,
+            "name": "Esbiaat"
+        },
+        {
+            "dataKeys": [
+                "MADAGH"
+            ],
+            "latitude": 35.0133,
+            "longitude": -2.3397,
+            "name": "Madagh"
+        },
+        {
+            "dataKeys": [
+                "TARGUIST"
+            ],
+            "latitude": 34.95,
+            "longitude": -4.3,
+            "name": "Targuist"
+        },
+        {
+            "dataKeys": [
+                "GOULMIMA"
+            ],
+            "latitude": 31.6944,
+            "longitude": -4.9592,
+            "name": "Goulmima"
+        },
+        {
+            "dataKeys": [
+                "AYT \u2019ATTOU OU L\u2019ARBI"
+            ],
+            "latitude": 31.5456,
+            "longitude": -8.2967,
+            "name": "Ayt \u2019Attou ou L\u2019Arbi"
+        },
+        {
+            "dataKeys": [
+                "MASMOUDA"
+            ],
+            "latitude": 34.7862,
+            "longitude": -5.7078,
+            "name": "Masmouda"
+        },
+        {
+            "dataKeys": [
+                "OULAD BOU RAHMOUN"
+            ],
+            "latitude": 32.2954,
+            "longitude": -6.6668,
+            "name": "Oulad Bou Rahmoun"
+        },
+        {
+            "dataKeys": [
+                "AL QBAB"
+            ],
+            "latitude": 32.7333,
+            "longitude": -5.5167,
+            "name": "Al Qbab"
+        },
+        {
+            "dataKeys": [
+                "DOUAR OULAD DRISS"
+            ],
+            "latitude": 31.9039,
+            "longitude": -8.3024,
+            "name": "Douar Oulad Driss"
+        },
+        {
+            "dataKeys": [
+                "ZAYDA"
+            ],
+            "latitude": 32.8167,
+            "longitude": -4.95,
+            "name": "Zayda"
+        },
+        {
+            "dataKeys": [
+                "SIDI AZZOUZ"
+            ],
+            "latitude": 31.7667,
+            "longitude": -7.6667,
+            "name": "Sidi Azzouz"
+        },
+        {
+            "dataKeys": [
+                "IHEDDADENE"
+            ],
+            "latitude": 35.15,
+            "longitude": -2.9667,
+            "name": "Iheddadene"
+        },
+        {
+            "dataKeys": [
+                "TENDRARA"
+            ],
+            "latitude": 33.05,
+            "longitude": -2.0,
+            "name": "Tendrara"
+        },
+        {
+            "dataKeys": [
+                "DOUAR HAMMADI"
+            ],
+            "latitude": 31.609,
+            "longitude": -8.4604,
+            "name": "Douar Hammadi"
+        },
+        {
+            "dataKeys": [
+                "KHAT AZAKANE"
+            ],
+            "latitude": 32.2226,
+            "longitude": -9.1343,
+            "name": "Khat Azakane"
+        },
+        {
+            "dataKeys": [
+                "KHMIS SIDI AL \u2019AYDI"
+            ],
+            "latitude": 33.1228,
+            "longitude": -7.6219,
+            "name": "Khmis Sidi al \u2019Aydi"
+        },
+        {
+            "dataKeys": [
+                "TAZERT"
+            ],
+            "latitude": 31.6597,
+            "longitude": -7.4092,
+            "name": "Tazert"
+        },
+        {
+            "dataKeys": [
+                "DOUAR LEHGAGCHA"
+            ],
+            "latitude": 32.55,
+            "longitude": -8.7167,
+            "name": "Douar Lehgagcha"
+        },
+        {
+            "dataKeys": [
+                "BNI DARKOUL"
+            ],
+            "latitude": 35.0563,
+            "longitude": -5.0688,
+            "name": "Bni Darkoul"
+        },
+        {
+            "dataKeys": [
+                "BIOUGRA"
+            ],
+            "latitude": 30.2144,
+            "longitude": -9.3708,
+            "name": "Biougra"
+        },
+        {
+            "dataKeys": [
+                "TOULAL"
+            ],
+            "latitude": 32.3036,
+            "longitude": -3.9861,
+            "name": "Toulal"
+        },
+        {
+            "dataKeys": [
+                "IYGLI"
+            ],
+            "latitude": 29.5001,
+            "longitude": -9.0501,
+            "name": "Iygli"
+        },
+        {
+            "dataKeys": [
+                "ARBAA LAAOUNATE"
+            ],
+            "latitude": 32.7446,
+            "longitude": -8.1942,
+            "name": "Arbaa Laaounate"
+        },
+        {
+            "dataKeys": [
+                "EL KANSERA"
+            ],
+            "latitude": 34.0419,
+            "longitude": -5.9272,
+            "name": "El Kansera"
+        },
+        {
+            "dataKeys": [
+                "BOUCHABEL"
+            ],
+            "latitude": 34.3833,
+            "longitude": -5.0167,
+            "name": "Bouchabel"
+        },
+        {
+            "dataKeys": [
+                "SIDI ABDELKARIM"
+            ],
+            "latitude": 33.1869,
+            "longitude": -7.2333,
+            "name": "Sidi Abdelkarim"
+        },
+        {
+            "dataKeys": [
+                "BHALIL"
+            ],
+            "latitude": 33.85,
+            "longitude": 4.8667,
+            "name": "Bhalil"
+        },
+        {
+            "dataKeys": [
+                "IGHREM N\u2019OUGDAL"
+            ],
+            "latitude": 31.2333,
+            "longitude": -7.4333,
+            "name": "Ighrem n\u2019Ougdal"
+        },
+        {
+            "dataKeys": [
+                "TAZZARINE"
+            ],
+            "latitude": 30.7722,
+            "longitude": -5.5458,
+            "name": "Tazzarine"
+        },
+        {
+            "dataKeys": [
+                "L\u2019OULJA"
+            ],
+            "latitude": 34.2894,
+            "longitude": -4.9481,
+            "name": "L\u2019Oulja"
+        },
+        {
+            "dataKeys": [
+                "IKNIWN"
+            ],
+            "latitude": 31.1736,
+            "longitude": -5.6733,
+            "name": "Ikniwn"
+        },
+        {
+            "dataKeys": [
+                "DOUAR TABOUDA"
+            ],
+            "latitude": 34.7167,
+            "longitude": -5.1333,
+            "name": "Douar Tabouda"
+        },
+        {
+            "dataKeys": [
+                "AIT LHAJ ALL"
+            ],
+            "latitude": 33.7622,
+            "longitude": -5.335,
+            "name": "Ait Lhaj All"
+        },
+        {
+            "dataKeys": [
+                "BEZOU"
+            ],
+            "latitude": 32.0833,
+            "longitude": -7.05,
+            "name": "Bezou"
+        },
+        {
+            "dataKeys": [
+                "DOUAR SOUK L\u2018QOLLA"
+            ],
+            "latitude": 35.0718,
+            "longitude": -5.5702,
+            "name": "Douar Souk L\u2018qolla"
+        },
+        {
+            "dataKeys": [
+                "OULAD TAYEB"
+            ],
+            "latitude": 33.9598,
+            "longitude": -4.9954,
+            "name": "Oulad Tayeb"
+        },
+        {
+            "dataKeys": [
+                "BNI QUOLLA"
+            ],
+            "latitude": 34.738,
+            "longitude": -5.5441,
+            "name": "Bni Quolla"
+        },
+        {
+            "dataKeys": [
+                "MENSORA"
+            ],
+            "latitude": 34.8356,
+            "longitude": -4.9655,
+            "name": "Mensora"
+        },
+        {
+            "dataKeys": [
+                "TOUNFIT"
+            ],
+            "latitude": 32.4667,
+            "longitude": -5.2333,
+            "name": "Tounfit"
+        },
+        {
+            "dataKeys": [
+                "BOUDENIB"
+            ],
+            "latitude": 31.9497,
+            "longitude": -3.6078,
+            "name": "Boudenib"
+        },
+        {
+            "dataKeys": [
+                "OULAD OUCHCHIH"
+            ],
+            "latitude": 35.0939,
+            "longitude": -5.9454,
+            "name": "Oulad Ouchchih"
+        },
+        {
+            "dataKeys": [
+                "WAWIZAGHT"
+            ],
+            "latitude": 32.1586,
+            "longitude": -6.355,
+            "name": "Wawizaght"
+        },
+        {
+            "dataKeys": [
+                "AGHBALA"
+            ],
+            "latitude": 32.4833,
+            "longitude": -5.6333,
+            "name": "Aghbala"
+        },
+        {
+            "dataKeys": [
+                "DOUAR OULAD NADER"
+            ],
+            "latitude": 32.3278,
+            "longitude": -6.5006,
+            "name": "Douar Oulad Nader"
+        },
+        {
+            "dataKeys": [
+                "OUNAGHA"
+            ],
+            "latitude": 31.5333,
+            "longitude": -9.55,
+            "name": "Ounagha"
+        },
+        {
+            "dataKeys": [
+                "RAS EL OUED"
+            ],
+            "latitude": 34.339,
+            "longitude": -4.5558,
+            "name": "Ras El Oued"
+        },
+        {
+            "dataKeys": [
+                "OURTZAGH"
+            ],
+            "latitude": 34.55,
+            "longitude": -4.9333,
+            "name": "Ourtzagh"
+        },
+        {
+            "dataKeys": [
+                "SEBT LABRIKIYNE"
+            ],
+            "latitude": 32.2944,
+            "longitude": -8.0722,
+            "name": "Sebt Labrikiyne"
+        },
+        {
+            "dataKeys": [
+                "TAFRANT"
+            ],
+            "latitude": 34.625,
+            "longitude": -5.1242,
+            "name": "Tafrant"
+        },
+        {
+            "dataKeys": [
+                "DOUAR SIDI LAAROUSSI"
+            ],
+            "latitude": 31.845,
+            "longitude": -9.1586,
+            "name": "Douar Sidi Laaroussi"
+        },
+        {
+            "dataKeys": [
+                "JAIDTE LBATMA"
+            ],
+            "latitude": 31.6806,
+            "longitude": -7.7281,
+            "name": "Jaidte Lbatma"
+        },
+        {
+            "dataKeys": [
+                "OULAD CHIKH"
+            ],
+            "latitude": 32.8544,
+            "longitude": -7.5386,
+            "name": "Oulad Chikh"
+        },
+        {
+            "dataKeys": [
+                "SIDI MOUSSA BEN ALI"
+            ],
+            "latitude": 33.5594,
+            "longitude": -7.3817,
+            "name": "Sidi Moussa Ben Ali"
+        },
+        {
+            "dataKeys": [
+                "AIN JEMAA"
+            ],
+            "latitude": 34.0333,
+            "longitude": -5.8,
+            "name": "AIn Jemaa"
+        },
+        {
+            "dataKeys": [
+                "AIT I\u2019YACH"
+            ],
+            "latitude": 32.6667,
+            "longitude": -4.9556,
+            "name": "AIt I\u2019yach"
+        },
+        {
+            "dataKeys": [
+                "SIDI KASEM"
+            ],
+            "latitude": 35.5339,
+            "longitude": -5.2183,
+            "name": "Sidi Kasem"
+        },
+        {
+            "dataKeys": [
+                "GHARBIA"
+            ],
+            "latitude": 35.5153,
+            "longitude": -5.9306,
+            "name": "Gharbia"
+        },
+        {
+            "dataKeys": [
+                "DOUAR OULAD YOUSSEF"
+            ],
+            "latitude": 32.4807,
+            "longitude": -6.3769,
+            "name": "Douar Oulad Youssef"
+        },
+        {
+            "dataKeys": [
+                "NKHEILA"
+            ],
+            "latitude": 32.9572,
+            "longitude": -7.0731,
+            "name": "Nkheila"
+        },
+        {
+            "dataKeys": [
+                "OUAOUZGANE"
+            ],
+            "latitude": 35.0167,
+            "longitude": -4.5167,
+            "name": "Ouaouzgane"
+        },
+        {
+            "dataKeys": [
+                "KSAR LMAJAZ"
+            ],
+            "latitude": 35.8428,
+            "longitude": -5.5586,
+            "name": "Ksar Lmajaz"
+        },
+        {
+            "dataKeys": [
+                "DOUAR TOULAL"
+            ],
+            "latitude": 33.8951,
+            "longitude": -5.6021,
+            "name": "Douar Toulal"
+        },
+        {
+            "dataKeys": [
+                "AHERMOUMOU"
+            ],
+            "latitude": 33.83,
+            "longitude": -4.4,
+            "name": "Ahermoumou"
+        },
+        {
+            "dataKeys": [
+                "TAMSAOUT"
+            ],
+            "latitude": 29.5333,
+            "longitude": -8.85,
+            "name": "Tamsaout"
+        },
+        {
+            "dataKeys": [
+                "SOUAKENE"
+            ],
+            "latitude": 35.1167,
+            "longitude": -5.95,
+            "name": "Souakene"
+        },
+        {
+            "dataKeys": [
+                "ZAOUIAT MOULAY BOUCHTA EL KHAMMAR"
+            ],
+            "latitude": 34.4833,
+            "longitude": -5.1167,
+            "name": "Zaouiat Moulay Bouchta El Khammar"
+        },
+        {
+            "dataKeys": [
+                "TATA"
+            ],
+            "latitude": 29.7428,
+            "longitude": -7.9725,
+            "name": "Tata"
+        },
+        {
+            "dataKeys": [
+                "TIZI NISLY"
+            ],
+            "latitude": 32.4667,
+            "longitude": -5.7667,
+            "name": "Tizi Nisly"
+        },
+        {
+            "dataKeys": [
+                "REGGADA"
+            ],
+            "latitude": 29.5205,
+            "longitude": -9.6664,
+            "name": "Reggada"
+        },
+        {
+            "dataKeys": [
+                "TIMEZGANA"
+            ],
+            "latitude": 34.5833,
+            "longitude": -4.7333,
+            "name": "Timezgana"
+        },
+        {
+            "dataKeys": [
+                "SIDI BOU OTHMANE"
+            ],
+            "latitude": 31.9033,
+            "longitude": -7.9422,
+            "name": "Sidi Bou Othmane"
+        },
+        {
+            "dataKeys": [
+                "TALWAT"
+            ],
+            "latitude": 31.2883,
+            "longitude": -7.2372,
+            "name": "Talwat"
+        },
+        {
+            "dataKeys": [
+                "BOUMALNE"
+            ],
+            "latitude": 31.4236,
+            "longitude": -6.0722,
+            "name": "Boumalne"
+        },
+        {
+            "dataKeys": [
+                "TIZGANE"
+            ],
+            "latitude": 35.4136,
+            "longitude": -5.0696,
+            "name": "Tizgane"
+        },
+        {
+            "dataKeys": [
+                "TEMSAMANE"
+            ],
+            "latitude": 35.1167,
+            "longitude": -3.6333,
+            "name": "Temsamane"
+        },
+        {
+            "dataKeys": [
+                "GUISSER"
+            ],
+            "latitude": 32.7667,
+            "longitude": -7.5,
+            "name": "Guisser"
+        },
+        {
+            "dataKeys": [
+                "EL AARGUB"
+            ],
+            "latitude": 23.6111,
+            "longitude": -15.8583,
+            "name": "El Aargub"
+        },
+        {
+            "dataKeys": [
+                "AIT OURIR"
+            ],
+            "latitude": 31.5644,
+            "longitude": -7.6628,
+            "name": "Ait Ourir"
+        },
+        {
+            "dataKeys": [
+                "OULAD HAMDANE"
+            ],
+            "latitude": 32.3333,
+            "longitude": -6.3667,
+            "name": "Oulad Hamdane"
+        },
+        {
+            "dataKeys": [
+                "TAHANNAWT"
+            ],
+            "latitude": 31.3514,
+            "longitude": -7.9508,
+            "name": "Tahannawt"
+        },
+        {
+            "dataKeys": [
+                "OULAD FARES"
+            ],
+            "latitude": 35.5167,
+            "longitude": -5.9333,
+            "name": "Oulad Fares"
+        },
+        {
+            "dataKeys": [
+                "DOUAR RAS EL KSAR"
+            ],
+            "latitude": 33.9819,
+            "longitude": -3.7494,
+            "name": "Douar Ras el Ksar"
+        },
+        {
+            "dataKeys": [
+                "BNI KHLOUG"
+            ],
+            "latitude": 32.65,
+            "longitude": -7.3833,
+            "name": "Bni Khloug"
+        },
+        {
+            "dataKeys": [
+                "OULAD HAMDANE"
+            ],
+            "latitude": 35.2167,
+            "longitude": -5.9667,
+            "name": "Oulad Hamdane"
+        },
+        {
+            "dataKeys": [
+                "TIRHASSALINE"
+            ],
+            "latitude": 32.7833,
+            "longitude": -5.65,
+            "name": "Tirhassaline"
+        },
+        {
+            "dataKeys": [
+                "AMIZMIZ"
+            ],
+            "latitude": 31.2167,
+            "longitude": -8.25,
+            "name": "Amizmiz"
+        },
+        {
+            "dataKeys": [
+                "LAAMARNA"
+            ],
+            "latitude": 31.8944,
+            "longitude": -8.9842,
+            "name": "Laamarna"
+        },
+        {
+            "dataKeys": [
+                "ZEMAMRA"
+            ],
+            "latitude": 32.6215,
+            "longitude": -8.7023,
+            "name": "Zemamra"
+        },
+        {
+            "dataKeys": [
+                "OULAD AMRANE EL MEKKI"
+            ],
+            "latitude": 35.2223,
+            "longitude": -5.9555,
+            "name": "Oulad Amrane el Mekki"
+        },
+        {
+            "dataKeys": [
+                "JAMAAT SHAIM"
+            ],
+            "latitude": 32.3486,
+            "longitude": -8.8431,
+            "name": "Jamaat Shaim"
+        },
+        {
+            "dataKeys": [
+                "AJ JOURF"
+            ],
+            "latitude": 31.4903,
+            "longitude": -4.4014,
+            "name": "Aj Jourf"
+        },
+        {
+            "dataKeys": [
+                "TIDDAS"
+            ],
+            "latitude": 33.5665,
+            "longitude": -6.2659,
+            "name": "Tiddas"
+        },
+        {
+            "dataKeys": [
+                "TOUALET"
+            ],
+            "latitude": 32.7333,
+            "longitude": -7.1833,
+            "name": "Toualet"
+        },
+        {
+            "dataKeys": [
+                "KISSANE LTOUQI"
+            ],
+            "latitude": 34.6,
+            "longitude": -5.0833,
+            "name": "Kissane Ltouqi"
+        },
+        {
+            "dataKeys": [
+                "ZAOUIET SAYS"
+            ],
+            "latitude": 32.7931,
+            "longitude": -8.6506,
+            "name": "Zaouiet Says"
+        },
+        {
+            "dataKeys": [
+                "OUED LAOU"
+            ],
+            "latitude": 35.45,
+            "longitude": -5.0833,
+            "name": "Oued Laou"
+        },
+        {
+            "dataKeys": [
+                "TEROUAL"
+            ],
+            "latitude": 34.6667,
+            "longitude": -5.2667,
+            "name": "Teroual"
+        },
+        {
+            "dataKeys": [
+                "MATMATA"
+            ],
+            "latitude": 34.1,
+            "longitude": -4.55,
+            "name": "Matmata"
+        },
+        {
+            "dataKeys": [
+                "TAMANAR"
+            ],
+            "latitude": 31.0,
+            "longitude": -9.6667,
+            "name": "Tamanar"
+        },
+        {
+            "dataKeys": [
+                "TILOUGGUIT"
+            ],
+            "latitude": 32.0333,
+            "longitude": -6.2,
+            "name": "Tilougguit"
+        },
+        {
+            "dataKeys": [
+                "DOUAR OULAD NAOUAL"
+            ],
+            "latitude": 34.4936,
+            "longitude": -5.7108,
+            "name": "Douar Oulad Naoual"
+        },
+        {
+            "dataKeys": [
+                "TIMAHDIT"
+            ],
+            "latitude": 33.2369,
+            "longitude": -5.06,
+            "name": "Timahdit"
+        },
+        {
+            "dataKeys": [
+                "BOU ADEL"
+            ],
+            "latitude": 34.5428,
+            "longitude": -4.5075,
+            "name": "Bou Adel"
+        },
+        {
+            "dataKeys": [
+                "IMOUZZER KANDAR"
+            ],
+            "latitude": 33.73,
+            "longitude": -5.01,
+            "name": "Imouzzer Kandar"
+        },
+        {
+            "dataKeys": [
+                "DZOUZ"
+            ],
+            "latitude": 31.89,
+            "longitude": -7.32,
+            "name": "Dzouz"
+        },
+        {
+            "dataKeys": [
+                "SIDI AMER EL HADI"
+            ],
+            "latitude": 34.7992,
+            "longitude": -5.8394,
+            "name": "Sidi Amer El Hadi"
+        },
+        {
+            "dataKeys": [
+                "ASJEN"
+            ],
+            "latitude": 34.85,
+            "longitude": -5.6167,
+            "name": "Asjen"
+        },
+        {
+            "dataKeys": [
+                "STEHA"
+            ],
+            "latitude": 35.3646,
+            "longitude": -4.9306,
+            "name": "Steha"
+        },
+        {
+            "dataKeys": [
+                "AHLAF"
+            ],
+            "latitude": 33.2833,
+            "longitude": -7.2,
+            "name": "Ahlaf"
+        },
+        {
+            "dataKeys": [
+                "MAYATE"
+            ],
+            "latitude": 32.2667,
+            "longitude": -7.5167,
+            "name": "Mayate"
+        },
+        {
+            "dataKeys": [
+                "OULAD FRIHA"
+            ],
+            "latitude": 32.6108,
+            "longitude": -7.625,
+            "name": "Oulad Friha"
+        },
+        {
+            "dataKeys": [
+                "TOUAMA"
+            ],
+            "latitude": 31.5339,
+            "longitude": -7.4872,
+            "name": "Touama"
+        },
+        {
+            "dataKeys": [
+                "EL MENZEL"
+            ],
+            "latitude": 33.8389,
+            "longitude": -4.5458,
+            "name": "El Menzel"
+        },
+        {
+            "dataKeys": [
+                "DOUAR TROUGOUT"
+            ],
+            "latitude": 35.18,
+            "longitude": -3.77,
+            "name": "Douar Trougout"
+        },
+        {
+            "dataKeys": [
+                "SEBT BNI GARFETT"
+            ],
+            "latitude": 35.25,
+            "longitude": -5.8333,
+            "name": "Sebt Bni Garfett"
+        },
+        {
+            "dataKeys": [
+                "JEM\u2019AT OULAD \u2019ABBOU"
+            ],
+            "latitude": 33.1156,
+            "longitude": -7.9333,
+            "name": "Jem\u2019at Oulad \u2019Abbou"
+        },
+        {
+            "dataKeys": [
+                "LAFRAYTA"
+            ],
+            "latitude": 31.9167,
+            "longitude": -7.25,
+            "name": "Lafrayta"
+        },
+        {
+            "dataKeys": [
+                "COMMUNE SIDI YOUSSEF BEN AHMED"
+            ],
+            "latitude": 33.7861,
+            "longitude": -4.8152,
+            "name": "Commune Sidi Youssef Ben Ahmed"
+        },
+        {
+            "dataKeys": [
+                "DERDARA"
+            ],
+            "latitude": 35.1103,
+            "longitude": -5.2872,
+            "name": "Derdara"
+        },
+        {
+            "dataKeys": [
+                "ZAWYAT AHANCAL"
+            ],
+            "latitude": 31.8325,
+            "longitude": -6.1056,
+            "name": "Zawyat AhanCal"
+        },
+        {
+            "dataKeys": [
+                "OULAD RAHMOUN"
+            ],
+            "latitude": 32.3278,
+            "longitude": -6.5006,
+            "name": "Oulad Rahmoun"
+        },
+        {
+            "dataKeys": [
+                "KARIAT BEN AOUDA"
+            ],
+            "latitude": 34.7667,
+            "longitude": -5.95,
+            "name": "Kariat Ben Aouda"
+        },
+        {
+            "dataKeys": [
+                "TAMAZOUZT"
+            ],
+            "latitude": 31.3833,
+            "longitude": -8.3833,
+            "name": "Tamazouzt"
+        },
+        {
+            "dataKeys": [
+                "IFRANE"
+            ],
+            "latitude": 33.5333,
+            "longitude": -5.1167,
+            "name": "Ifrane"
+        },
+        {
+            "dataKeys": [
+                "AGDZ"
+            ],
+            "latitude": 30.6978,
+            "longitude": -6.4497,
+            "name": "Agdz"
+        },
+        {
+            "dataKeys": [
+                "DOUAR AIN MAATOUF"
+            ],
+            "latitude": 34.4352,
+            "longitude": -4.5566,
+            "name": "Douar Ain Maatouf"
+        },
+        {
+            "dataKeys": [
+                "IAZIZATENE"
+            ],
+            "latitude": 35.2544,
+            "longitude": -3.115,
+            "name": "Iazizatene"
+        },
+        {
+            "dataKeys": [
+                "AMDEL"
+            ],
+            "latitude": 31.5617,
+            "longitude": -8.8944,
+            "name": "Amdel"
+        },
+        {
+            "dataKeys": [
+                "AIT HANI"
+            ],
+            "latitude": 31.7483,
+            "longitude": -5.5735,
+            "name": "AIt Hani"
+        },
+        {
+            "dataKeys": [
+                "AR ROMMANI"
+            ],
+            "latitude": 33.5333,
+            "longitude": -6.6167,
+            "name": "Ar Rommani"
+        },
+        {
+            "dataKeys": [
+                "SOUQ SEBT SAYS"
+            ],
+            "latitude": 32.7773,
+            "longitude": -8.6433,
+            "name": "Souq Sebt Says"
+        },
+        {
+            "dataKeys": [
+                "FARKHANA"
+            ],
+            "latitude": 35.2833,
+            "longitude": -3.0167,
+            "name": "FarkhAna"
+        },
+        {
+            "dataKeys": [
+                "TAMEZMOUT"
+            ],
+            "latitude": 30.8075,
+            "longitude": -6.1142,
+            "name": "Tamezmout"
+        },
+        {
+            "dataKeys": [
+                "OUED AMLIL"
+            ],
+            "latitude": 34.2,
+            "longitude": -4.2833,
+            "name": "Oued Amlil"
+        },
+        {
+            "dataKeys": [
+                "TIFNI"
+            ],
+            "latitude": 31.6281,
+            "longitude": -6.9444,
+            "name": "Tifni"
+        },
+        {
+            "dataKeys": [
+                "OULAD HAMMOU"
+            ],
+            "latitude": 33.1156,
+            "longitude": -7.9333,
+            "name": "Oulad Hammou"
+        },
+        {
+            "dataKeys": [
+                "TANANT"
+            ],
+            "latitude": 31.8667,
+            "longitude": -6.95,
+            "name": "Tanant"
+        },
+        {
+            "dataKeys": [
+                "DOUAR EL MELLALIYINE"
+            ],
+            "latitude": 35.6264,
+            "longitude": -5.3414,
+            "name": "Douar El Mellaliyine"
+        },
+        {
+            "dataKeys": [
+                "EL GHOURDANE"
+            ],
+            "latitude": 32.3205,
+            "longitude": -8.7637,
+            "name": "El Ghourdane"
+        },
+        {
+            "dataKeys": [
+                "LAGHZAWNA"
+            ],
+            "latitude": 33.189,
+            "longitude": -7.684,
+            "name": "Laghzawna"
+        },
+        {
+            "dataKeys": [
+                "AL M\u2019AZIZ"
+            ],
+            "latitude": 33.6667,
+            "longitude": -6.3167,
+            "name": "Al M\u2019aziz"
+        },
+        {
+            "dataKeys": [
+                "EL ARBA DES BIR LENNI"
+            ],
+            "latitude": 34.3272,
+            "longitude": -4.2039,
+            "name": "El Arba Des Bir Lenni"
+        },
+        {
+            "dataKeys": [
+                "OULAD DAOUD"
+            ],
+            "latitude": 34.4303,
+            "longitude": -4.7728,
+            "name": "Oulad Daoud"
+        },
+        {
+            "dataKeys": [
+                "JAQMA"
+            ],
+            "latitude": 33.292,
+            "longitude": -7.44,
+            "name": "Jaqma"
+        },
+        {
+            "dataKeys": [
+                "KENAFIF"
+            ],
+            "latitude": 30.4167,
+            "longitude": -9.0333,
+            "name": "Kenafif"
+        },
+        {
+            "dataKeys": [
+                "SEBT AIT IKKOU"
+            ],
+            "latitude": 33.6686,
+            "longitude": -6.1372,
+            "name": "Sebt Ait Ikkou"
+        },
+        {
+            "dataKeys": [
+                "GAMMASA"
+            ],
+            "latitude": 31.4182,
+            "longitude": -8.3784,
+            "name": "Gammasa"
+        },
+        {
+            "dataKeys": [
+                "AGHBALOU N\u2019KERDOUS"
+            ],
+            "latitude": 31.6767,
+            "longitude": -5.2976,
+            "name": "Aghbalou n\u2019Kerdous"
+        },
+        {
+            "dataKeys": [
+                "LAMHADI"
+            ],
+            "latitude": 32.3,
+            "longitude": -9.0167,
+            "name": "Lamhadi"
+        },
+        {
+            "dataKeys": [
+                "TNINE SIDI LYAMANI"
+            ],
+            "latitude": 35.37,
+            "longitude": -5.97,
+            "name": "Tnine Sidi Lyamani"
+        },
+        {
+            "dataKeys": [
+                "AIN LEGDAH"
+            ],
+            "latitude": 34.1667,
+            "longitude": -4.5,
+            "name": "Ain Legdah"
+        },
+        {
+            "dataKeys": [
+                "AL FAYD"
+            ],
+            "latitude": 30.6167,
+            "longitude": -8.2167,
+            "name": "Al Fayd"
+        },
+        {
+            "dataKeys": [
+                "SAIDIA"
+            ],
+            "latitude": 35.085,
+            "longitude": -2.2392,
+            "name": "Saidia"
+        },
+        {
+            "dataKeys": [
+                "ITZER"
+            ],
+            "latitude": 32.8833,
+            "longitude": -5.05,
+            "name": "Itzer"
+        },
+        {
+            "dataKeys": [
+                "LAQRAQRA"
+            ],
+            "latitude": 32.4333,
+            "longitude": -7.4333,
+            "name": "Laqraqra"
+        },
+        {
+            "dataKeys": [
+                "ABADOU"
+            ],
+            "latitude": 31.5797,
+            "longitude": -7.3122,
+            "name": "Abadou"
+        },
+        {
+            "dataKeys": [
+                "FIGUIG"
+            ],
+            "latitude": 32.1167,
+            "longitude": -1.2269,
+            "name": "Figuig"
+        },
+        {
+            "dataKeys": [
+                "LAMSABIH"
+            ],
+            "latitude": 32.2933,
+            "longitude": -8.6889,
+            "name": "Lamsabih"
+        },
+        {
+            "dataKeys": [
+                "SIDI BOUSHAB"
+            ],
+            "latitude": 30.074,
+            "longitude": -9.279,
+            "name": "Sidi Boushab"
+        },
+        {
+            "dataKeys": [
+                "BOUDERBALA"
+            ],
+            "latitude": 33.8123,
+            "longitude": -5.2871,
+            "name": "Bouderbala"
+        },
+        {
+            "dataKeys": [
+                "EL KHEMIS DES BENI CHEGDAL"
+            ],
+            "latitude": 32.4441,
+            "longitude": -6.9551,
+            "name": "El Khemis des Beni Chegdal"
+        },
+        {
+            "dataKeys": [
+                "TAINESTE"
+            ],
+            "latitude": 34.5573,
+            "longitude": -4.136,
+            "name": "TaIneste"
+        },
+        {
+            "dataKeys": [
+                "DOUAR ECHBANAT"
+            ],
+            "latitude": 34.214,
+            "longitude": -5.3508,
+            "name": "Douar Echbanat"
+        },
+        {
+            "dataKeys": [
+                "AIN BEIDA"
+            ],
+            "latitude": 31.585,
+            "longitude": -8.608,
+            "name": "Ain Beida"
+        },
+        {
+            "dataKeys": [
+                "IMI MOKORN"
+            ],
+            "latitude": 30.1675,
+            "longitude": -9.2322,
+            "name": "Imi Mokorn"
+        },
+        {
+            "dataKeys": [
+                "DOUAR JWALLA"
+            ],
+            "latitude": 31.89,
+            "longitude": -7.44,
+            "name": "Douar Jwalla"
+        },
+        {
+            "dataKeys": [
+                "SIDI RAHHAL"
+            ],
+            "latitude": 31.6667,
+            "longitude": -7.4833,
+            "name": "Sidi Rahhal"
+        },
+        {
+            "dataKeys": [
+                "TAWNZA"
+            ],
+            "latitude": 32.0944,
+            "longitude": -6.6025,
+            "name": "Tawnza"
+        },
+        {
+            "dataKeys": [
+                "DOUAR MZOURA"
+            ],
+            "latitude": 34.3167,
+            "longitude": -5.9333,
+            "name": "Douar Mzoura"
+        },
+        {
+            "dataKeys": [
+                "SOUK ET TNINE JORF EL MELLAH"
+            ],
+            "latitude": 34.4833,
+            "longitude": -5.5169,
+            "name": "Souk et Tnine Jorf el Mellah"
+        },
+        {
+            "dataKeys": [
+                "TOUNDOUT"
+            ],
+            "latitude": 31.2667,
+            "longitude": -6.5833,
+            "name": "Toundout"
+        },
+        {
+            "dataKeys": [
+                "MSILA"
+            ],
+            "latitude": 35.2,
+            "longitude": -5.5667,
+            "name": "Msila"
+        },
+        {
+            "dataKeys": [
+                "AIN ZOHRA"
+            ],
+            "latitude": 34.1,
+            "longitude": -6.35,
+            "name": "AIn Zohra"
+        },
+        {
+            "dataKeys": [
+                "BEN QARRICH"
+            ],
+            "latitude": 35.5114,
+            "longitude": -5.4264,
+            "name": "Ben Qarrich"
+        },
+        {
+            "dataKeys": [
+                "BOU ZEMOU"
+            ],
+            "latitude": 32.1114,
+            "longitude": -5.5197,
+            "name": "Bou Zemou"
+        },
+        {
+            "dataKeys": [
+                "DOUAR BOUCHFAA"
+            ],
+            "latitude": 34.1014,
+            "longitude": -4.2939,
+            "name": "Douar Bouchfaa"
+        },
+        {
+            "dataKeys": [
+                "JAFRA"
+            ],
+            "latitude": 31.5145,
+            "longitude": -8.7555,
+            "name": "Jafra"
+        },
+        {
+            "dataKeys": [
+                "SIDI OUASSAY"
+            ],
+            "latitude": 30.05,
+            "longitude": -9.6833,
+            "name": "Sidi Ouassay"
+        },
+        {
+            "dataKeys": [
+                "JOUAMAA"
+            ],
+            "latitude": 35.65,
+            "longitude": -5.6833,
+            "name": "Jouamaa"
+        },
+        {
+            "dataKeys": [
+                "MOULAY DRISS ZERHOUN"
+            ],
+            "latitude": 34.0542,
+            "longitude": -5.5272,
+            "name": "Moulay Driss Zerhoun"
+        },
+        {
+            "dataKeys": [
+                "BOU\u2019NANE"
+            ],
+            "latitude": 32.0275,
+            "longitude": -3.04,
+            "name": "Bou\u2019nane"
+        },
+        {
+            "dataKeys": [
+                "AGOURAI"
+            ],
+            "latitude": 33.6333,
+            "longitude": -5.5833,
+            "name": "Agourai"
+        },
+        {
+            "dataKeys": [
+                "SIDI ABDELLAH BEN TAAZIZT"
+            ],
+            "latitude": 34.0019,
+            "longitude": -5.3695,
+            "name": "Sidi Abdellah Ben Taazizt"
+        },
+        {
+            "dataKeys": [
+                "TOURZA"
+            ],
+            "latitude": 29.4778,
+            "longitude": -10.0158,
+            "name": "Tourza"
+        },
+        {
+            "dataKeys": [
+                "TAKAD SAHEL"
+            ],
+            "latitude": 30.25,
+            "longitude": -9.55,
+            "name": "Takad Sahel"
+        },
+        {
+            "dataKeys": [
+                "OUTAT OULAD AL HAJ"
+            ],
+            "latitude": 33.3333,
+            "longitude": -3.6833,
+            "name": "Outat Oulad Al Haj"
+        },
+        {
+            "dataKeys": [
+                "OULAD SLIM"
+            ],
+            "latitude": 32.7775,
+            "longitude": -7.7725,
+            "name": "Oulad Slim"
+        },
+        {
+            "dataKeys": [
+                "MIRLEFT"
+            ],
+            "latitude": 29.6081,
+            "longitude": -9.9698,
+            "name": "Mirleft"
+        },
+        {
+            "dataKeys": [
+                "BOUABOUT"
+            ],
+            "latitude": 31.2667,
+            "longitude": -9.1833,
+            "name": "Bouabout"
+        },
+        {
+            "dataKeys": [
+                "ECH CHAIBAT"
+            ],
+            "latitude": 31.6,
+            "longitude": -7.85,
+            "name": "Ech ChaIbat"
+        },
+        {
+            "dataKeys": [
+                "OULAD \u2019AZZOUZ"
+            ],
+            "latitude": 32.703,
+            "longitude": -6.766,
+            "name": "Oulad \u2019Azzouz"
+        },
+        {
+            "dataKeys": [
+                "IMLIL"
+            ],
+            "latitude": 31.7567,
+            "longitude": -7.0106,
+            "name": "Imlil"
+        },
+        {
+            "dataKeys": [
+                "SIDI AHMED EL KHADIR"
+            ],
+            "latitude": 32.5167,
+            "longitude": -7.3833,
+            "name": "Sidi Ahmed El Khadir"
+        },
+        {
+            "dataKeys": [
+                "HETANE"
+            ],
+            "latitude": 32.8403,
+            "longitude": -6.8025,
+            "name": "Hetane"
+        },
+        {
+            "dataKeys": [
+                "AGHBALOU AQOURAR"
+            ],
+            "latitude": 33.9341,
+            "longitude": -4.7381,
+            "name": "Aghbalou Aqourar"
+        },
+        {
+            "dataKeys": [
+                "SIDI BOUSBER"
+            ],
+            "latitude": 34.5667,
+            "longitude": -5.3667,
+            "name": "Sidi Bousber"
+        },
+        {
+            "dataKeys": [
+                "AMESKROUD"
+            ],
+            "latitude": 30.5308,
+            "longitude": -9.3283,
+            "name": "Ameskroud"
+        },
+        {
+            "dataKeys": [
+                "SIDI EL HATTAB"
+            ],
+            "latitude": 32.2667,
+            "longitude": -7.2833,
+            "name": "Sidi El Hattab"
+        },
+        {
+            "dataKeys": [
+                "BOUJEDIANE"
+            ],
+            "latitude": 35.1114,
+            "longitude": -5.7823,
+            "name": "Boujediane"
+        },
+        {
+            "dataKeys": [
+                "DOUAR LEHOUIFRAT"
+            ],
+            "latitude": 32.28,
+            "longitude": -8.31,
+            "name": "Douar Lehouifrat"
+        },
+        {
+            "dataKeys": [
+                "OULAD AMOR"
+            ],
+            "latitude": 32.0775,
+            "longitude": -7.6122,
+            "name": "Oulad Amor"
+        },
+        {
+            "dataKeys": [
+                "DAR SI AISSA"
+            ],
+            "latitude": 32.4199,
+            "longitude": -8.908,
+            "name": "Dar Si Aissa"
+        },
+        {
+            "dataKeys": [
+                "KOURIMAT"
+            ],
+            "latitude": 31.45,
+            "longitude": -9.3167,
+            "name": "Kourimat"
+        },
+        {
+            "dataKeys": [
+                "OULAD CHBANA"
+            ],
+            "latitude": 33.05,
+            "longitude": -7.3833,
+            "name": "Oulad Chbana"
+        },
+        {
+            "dataKeys": [
+                "GAADA"
+            ],
+            "latitude": 35.1594,
+            "longitude": -2.9892,
+            "name": "Gaada"
+        },
+        {
+            "dataKeys": [
+                "ZAWYAT SIDI AL MEKKI"
+            ],
+            "latitude": 33.212,
+            "longitude": -7.717,
+            "name": "Zawyat Sidi al Mekki"
+        },
+        {
+            "dataKeys": [
+                "BERKINE"
+            ],
+            "latitude": 33.7665,
+            "longitude": -3.8438,
+            "name": "Berkine"
+        },
+        {
+            "dataKeys": [
+                "SIDI ABDALLAH"
+            ],
+            "latitude": 32.5783,
+            "longitude": -7.8108,
+            "name": "Sidi Abdallah"
+        },
+        {
+            "dataKeys": [
+                "TISSAF"
+            ],
+            "latitude": 33.4,
+            "longitude": -3.5833,
+            "name": "Tissaf"
+        },
+        {
+            "dataKeys": [
+                "HAD DRA"
+            ],
+            "latitude": 31.5833,
+            "longitude": -9.5333,
+            "name": "Had Dra"
+        },
+        {
+            "dataKeys": [
+                "SGAMNA"
+            ],
+            "latitude": 32.7342,
+            "longitude": -7.2025,
+            "name": "Sgamna"
+        },
+        {
+            "dataKeys": [
+                "MOKRISSET"
+            ],
+            "latitude": 34.91,
+            "longitude": -5.3536,
+            "name": "Mokrisset"
+        },
+        {
+            "dataKeys": [
+                "KASBA TANORA"
+            ],
+            "latitude": 32.4751,
+            "longitude": -6.1498,
+            "name": "Kasba Tanora"
+        },
+        {
+            "dataKeys": [
+                "AIT TOUIL"
+            ],
+            "latitude": 33.7842,
+            "longitude": -6.1281,
+            "name": "Ait Touil"
+        },
+        {
+            "dataKeys": [
+                "FOUM JAM\u2019A"
+            ],
+            "latitude": 31.96,
+            "longitude": -6.98,
+            "name": "Foum Jam\u2019a"
+        },
+        {
+            "dataKeys": [
+                "DOUAR OULAD BOUZIANE"
+            ],
+            "latitude": 34.2325,
+            "longitude": -5.0444,
+            "name": "Douar Oulad Bouziane"
+        },
+        {
+            "dataKeys": [
+                "TAOULOUKOULT"
+            ],
+            "latitude": 31.2167,
+            "longitude": -9.0833,
+            "name": "Taouloukoult"
+        },
+        {
+            "dataKeys": [
+                "TAOUZ"
+            ],
+            "latitude": 30.9069,
+            "longitude": -3.9958,
+            "name": "Taouz"
+        },
+        {
+            "dataKeys": [
+                "TIZTOUTINE"
+            ],
+            "latitude": 34.9833,
+            "longitude": -3.15,
+            "name": "Tiztoutine"
+        },
+        {
+            "dataKeys": [
+                "LAANOUSSAR"
+            ],
+            "latitude": 33.6833,
+            "longitude": -4.8167,
+            "name": "Laanoussar"
+        },
+        {
+            "dataKeys": [
+                "OULAD IMLOUL"
+            ],
+            "latitude": 32.0333,
+            "longitude": -7.7167,
+            "name": "Oulad Imloul"
+        },
+        {
+            "dataKeys": [
+                "TLETA TAGHRAMT"
+            ],
+            "latitude": 35.7877,
+            "longitude": -5.4677,
+            "name": "Tleta Taghramt"
+        },
+        {
+            "dataKeys": [
+                "LA\u2019TAMNA"
+            ],
+            "latitude": 31.91,
+            "longitude": -7.34,
+            "name": "La\u2019tamna"
+        },
+        {
+            "dataKeys": [
+                "ZAWYAT SIDI BEN HAMDOUN"
+            ],
+            "latitude": 33.045,
+            "longitude": -7.929,
+            "name": "Zawyat Sidi Ben Hamdoun"
+        },
+        {
+            "dataKeys": [
+                "DOUAR OULAD SIDI MOUSSA"
+            ],
+            "latitude": 32.2726,
+            "longitude": -7.1987,
+            "name": "Douar Oulad Sidi Moussa"
+        },
+        {
+            "dataKeys": [
+                "LAHFAYR"
+            ],
+            "latitude": 30.57,
+            "longitude": -8.4878,
+            "name": "Lahfayr"
+        },
+        {
+            "dataKeys": [
+                "DOUAR EZZERARDA"
+            ],
+            "latitude": 34.7667,
+            "longitude": -5.8333,
+            "name": "Douar Ezzerarda"
+        },
+        {
+            "dataKeys": [
+                "SIDI BOUNAGA"
+            ],
+            "latitude": 30.7106,
+            "longitude": -8.34,
+            "name": "Sidi Bounaga"
+        },
+        {
+            "dataKeys": [
+                "ZAGGOTA"
+            ],
+            "latitude": 34.1667,
+            "longitude": -5.5333,
+            "name": "Zaggota"
+        },
+        {
+            "dataKeys": [
+                "HAD LAAOUNATE"
+            ],
+            "latitude": 32.6128,
+            "longitude": -8.2256,
+            "name": "Had Laaounate"
+        },
+        {
+            "dataKeys": [
+                "TAGHBALT"
+            ],
+            "latitude": 30.62,
+            "longitude": -5.35,
+            "name": "Taghbalt"
+        },
+        {
+            "dataKeys": [
+                "OULAD KHALLOUF"
+            ],
+            "latitude": 31.79,
+            "longitude": -7.07,
+            "name": "Oulad Khallouf"
+        },
+        {
+            "dataKeys": [
+                "IMILCHIL"
+            ],
+            "latitude": 32.155,
+            "longitude": -5.6347,
+            "name": "Imilchil"
+        },
+        {
+            "dataKeys": [
+                "MWALINE AL OUED"
+            ],
+            "latitude": 33.4467,
+            "longitude": -7.3283,
+            "name": "Mwaline al Oued"
+        },
+        {
+            "dataKeys": [
+                "TILMI"
+            ],
+            "latitude": 31.8189,
+            "longitude": -5.7718,
+            "name": "Tilmi"
+        },
+        {
+            "dataKeys": [
+                "JEMAAT OULAD MHAMED"
+            ],
+            "latitude": 33.0938,
+            "longitude": -7.0519,
+            "name": "Jemaat Oulad Mhamed"
+        },
+        {
+            "dataKeys": [
+                "TARHJICHT"
+            ],
+            "latitude": 29.0564,
+            "longitude": -9.4281,
+            "name": "Tarhjicht"
+        },
+        {
+            "dataKeys": [
+                "TADLA"
+            ],
+            "latitude": 32.4409,
+            "longitude": -8.3708,
+            "name": "Tadla"
+        },
+        {
+            "dataKeys": [
+                "AIN EL MEDIOUR"
+            ],
+            "latitude": 30.4,
+            "longitude": -8.8833,
+            "name": "AIn el Mediour"
+        },
+        {
+            "dataKeys": [
+                "AIN LEUH"
+            ],
+            "latitude": 33.2833,
+            "longitude": -5.3833,
+            "name": "AIn Leuh"
+        },
+        {
+            "dataKeys": [
+                "SIDI DAHBI"
+            ],
+            "latitude": 33.05,
+            "longitude": -7.1833,
+            "name": "Sidi Dahbi"
+        },
+        {
+            "dataKeys": [
+                "BENI OULID"
+            ],
+            "latitude": 34.5897,
+            "longitude": -4.4514,
+            "name": "Beni Oulid"
+        },
+        {
+            "dataKeys": [
+                "BIR TAM TAM"
+            ],
+            "latitude": 33.9833,
+            "longitude": -4.6333,
+            "name": "Bir Tam Tam"
+        },
+        {
+            "dataKeys": [
+                "BOUNAAMANE"
+            ],
+            "latitude": 29.5283,
+            "longitude": -9.8044,
+            "name": "Bounaamane"
+        },
+        {
+            "dataKeys": [
+                "BNI SIDEL"
+            ],
+            "latitude": 35.1392,
+            "longitude": -3.1281,
+            "name": "Bni Sidel"
+        },
+        {
+            "dataKeys": [
+                "DOUAR AIT TALEB"
+            ],
+            "latitude": 32.3839,
+            "longitude": -8.1856,
+            "name": "Douar Ait Taleb"
+        },
+        {
+            "dataKeys": [
+                "AWFOUSS"
+            ],
+            "latitude": 31.6833,
+            "longitude": -4.1667,
+            "name": "Awfouss"
+        },
+        {
+            "dataKeys": [
+                "SMIMOU"
+            ],
+            "latitude": 31.2167,
+            "longitude": -9.7,
+            "name": "Smimou"
+        },
+        {
+            "dataKeys": [
+                "LAMBARKIYINE"
+            ],
+            "latitude": 33.2,
+            "longitude": -7.5,
+            "name": "Lambarkiyine"
+        },
+        {
+            "dataKeys": [
+                "AIT OUAOUMANA"
+            ],
+            "latitude": 32.7128,
+            "longitude": -5.8042,
+            "name": "AIt Ouaoumana"
+        },
+        {
+            "dataKeys": [
+                "AIT HADI"
+            ],
+            "latitude": 31.3942,
+            "longitude": -8.7725,
+            "name": "AIt Hadi"
+        },
+        {
+            "dataKeys": [
+                "ARBAA SAHEL"
+            ],
+            "latitude": 29.5993,
+            "longitude": -9.877,
+            "name": "Arbaa Sahel"
+        },
+        {
+            "dataKeys": [
+                "TISSINT"
+            ],
+            "latitude": 29.9006,
+            "longitude": -7.3203,
+            "name": "Tissint"
+        },
+        {
+            "dataKeys": [
+                "BRIKCHA"
+            ],
+            "latitude": 34.9667,
+            "longitude": -5.5833,
+            "name": "Brikcha"
+        },
+        {
+            "dataKeys": [
+                "MTAL"
+            ],
+            "latitude": 32.4908,
+            "longitude": -8.3781,
+            "name": "Mtal"
+        },
+        {
+            "dataKeys": [
+                "OULAD SAID"
+            ],
+            "latitude": 32.9676,
+            "longitude": -7.8133,
+            "name": "Oulad SaId"
+        },
+        {
+            "dataKeys": [
+                "AIT RAMI"
+            ],
+            "latitude": 29.9608,
+            "longitude": -9.4234,
+            "name": "Ait Rami"
+        },
+        {
+            "dataKeys": [
+                "AIN ZORA"
+            ],
+            "latitude": 34.66,
+            "longitude": -3.53,
+            "name": "AIn Zora"
+        },
+        {
+            "dataKeys": [
+                "ZAWIAT MOULAY BRAHIM"
+            ],
+            "latitude": 31.2858,
+            "longitude": -7.9656,
+            "name": "Zawiat Moulay Brahim"
+        },
+        {
+            "dataKeys": [
+                "MSEMRIR"
+            ],
+            "latitude": 31.7028,
+            "longitude": -5.8125,
+            "name": "Msemrir"
+        },
+        {
+            "dataKeys": [
+                "ARBAA AYACHA"
+            ],
+            "latitude": 35.383,
+            "longitude": -5.8333,
+            "name": "Arbaa Ayacha"
+        },
+        {
+            "dataKeys": [
+                "LEHRHI"
+            ],
+            "latitude": 32.4167,
+            "longitude": -6.3167,
+            "name": "Lehrhi"
+        },
+        {
+            "dataKeys": [
+                "AIT TAGALLA"
+            ],
+            "latitude": 31.9167,
+            "longitude": -6.7167,
+            "name": "AIt Tagalla"
+        },
+        {
+            "dataKeys": [
+                "FOUM ZGUID"
+            ],
+            "latitude": 30.0833,
+            "longitude": -6.8667,
+            "name": "Foum Zguid"
+        },
+        {
+            "dataKeys": [
+                "TATOUFET"
+            ],
+            "latitude": 35.0339,
+            "longitude": -5.7706,
+            "name": "Tatoufet"
+        },
+        {
+            "dataKeys": [
+                "AJDIR"
+            ],
+            "latitude": 34.7443,
+            "longitude": -3.9735,
+            "name": "Ajdir"
+        },
+        {
+            "dataKeys": [
+                "AKLIM"
+            ],
+            "latitude": 34.9167,
+            "longitude": -2.4333,
+            "name": "Aklim"
+        },
+        {
+            "dataKeys": [
+                "EL AMIM"
+            ],
+            "latitude": 32.2067,
+            "longitude": -7.2629,
+            "name": "El Amim"
+        },
+        {
+            "dataKeys": [
+                "ZA\u2019ROURA"
+            ],
+            "latitude": 35.2167,
+            "longitude": -5.6667,
+            "name": "Za\u2019roura"
+        },
+        {
+            "dataKeys": [
+                "OULAD KHALLOUF"
+            ],
+            "latitude": 34.71,
+            "longitude": -2.58,
+            "name": "Oulad Khallouf"
+        },
+        {
+            "dataKeys": [
+                "DOUAR SIDI MSOUR"
+            ],
+            "latitude": 32.2725,
+            "longitude": -7.1986,
+            "name": "Douar Sidi Msour"
+        },
+        {
+            "dataKeys": [
+                "AMTAR"
+            ],
+            "latitude": 35.2385,
+            "longitude": -4.7943,
+            "name": "Amtar"
+        },
+        {
+            "dataKeys": [
+                "OUTA BOUABANE"
+            ],
+            "latitude": 34.2606,
+            "longitude": -4.4139,
+            "name": "Outa Bouabane"
+        },
+        {
+            "dataKeys": [
+                "TIZOUAL"
+            ],
+            "latitude": 31.0244,
+            "longitude": -7.8186,
+            "name": "Tizoual"
+        },
+        {
+            "dataKeys": [
+                "DAR EL KEBDANI"
+            ],
+            "latitude": 35.1203,
+            "longitude": -3.3322,
+            "name": "Dar El Kebdani"
+        },
+        {
+            "dataKeys": [
+                "BOUHLOU"
+            ],
+            "latitude": 34.1333,
+            "longitude": -4.4,
+            "name": "Bouhlou"
+        },
+        {
+            "dataKeys": [
+                "TIFARITI"
+            ],
+            "latitude": 26.158,
+            "longitude": -10.567,
+            "name": "Tifariti"
+        },
+        {
+            "dataKeys": [
+                "BIR ANZARANE"
+            ],
+            "latitude": 23.8918,
+            "longitude": -14.5364,
+            "name": "Bir Anzarane"
+        },
+        {
+            "dataKeys": [
+                "UAD DAMRAN"
+            ],
+            "latitude": 27.4181,
+            "longitude": -12.9842,
+            "name": "Uad Damran"
+        },
+        {
+            "dataKeys": [
+                "LEMSID"
+            ],
+            "latitude": 26.5482,
+            "longitude": -13.8482,
+            "name": "Lemsid"
+        }
+  ]
+}

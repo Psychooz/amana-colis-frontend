@@ -215,27 +215,27 @@ const Dashboard = () => {
                       loading={loading}
                     />
                   </div>
-                  {/* <div className="col-md-4">
+                  <div className="col-md-4">
                     <PaymentStatusChart 
                       data={stats.paymentStats}
                       loading={loading}
                     />
-                  </div> */}
-                  {/* <div className="col-md-4">
+                  </div>
+                  <div className="col-md-4">
                     <ShipmentStatusChart 
                       data={stats.statusStats}
                       loading={loading}
                     />
-                  </div> */}
+                  </div>
                 </div>
 
                 <div className="row g-3 mb-4">
-                  {/* <div className="col-md-8">
+                  <div className="col-md-8">
                     <TrendsChart 
                       data={stats.monthlyStats}
                       loading={loading}
                     />
-                  </div> */}
+                  </div>
                   <div className="col-md-4">
                     <MoroccoMap 
                       data={stats.cityStats}

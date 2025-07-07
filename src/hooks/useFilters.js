@@ -17,7 +17,7 @@ export const useFilters = (initialFilters = {}) => {
   };
 
   const [filters, setFilters] = useState(defaultFilters);
-  const [showFilters, setShowFilters] = useState(false);
+  const [showFilters, setShowFilters] = useState(true);
 
   const handleFilterChange = (key, value) => {
     setFilters(prev => ({ ...prev, [key]: value }));
