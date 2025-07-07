@@ -11,7 +11,7 @@ import {
   getSortedRowModel,
 } from '@tanstack/react-table';
 
-const ColisTable = () => {
+const ColisTable = ({ onFiltersApplied }) => {
   const { user } = useAuth();
   const [colis, setColis] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -55,6 +55,11 @@ const ColisTable = () => {
         };
         
         response = await colisAPI.getColisWithFilters(user.id, filterParams);
+        
+        // Notify Dashboard about applied filters
+        if (onFiltersApplied) {
+          onFiltersApplied(getFilterParams(), true);
+        }
       } else {
         response = await colisAPI.getColisByClient(
           user.id,
@@ -63,6 +68,11 @@ const ColisTable = () => {
           sorting[0]?.id || 'dateDepot',
           sorting[0]?.desc ? 'desc' : 'asc'
         );
+        
+        // Notify Dashboard that no filters are applied
+        if (onFiltersApplied) {
+          onFiltersApplied({}, false);
+        }
       }
 
       setColis(response.data.content || []);

@@ -50,7 +50,6 @@ body {
   overflow: hidden;
 }
 
-/* Simple date input styling - don't interfere with browser functionality */
 input[type="date"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   position: relative;

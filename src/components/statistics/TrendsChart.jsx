@@ -21,8 +21,6 @@ const TrendsChart = ({ data = [], loading = false }) => {
   const xLabels = chartData.map(item => item.month);
   const colisData = chartData.map(item => item.totalColis);
   const crbtData = chartData.map(item => item.totalCrbt);
-
-  // Calculate normalized CRBT data to scale it properly with envois
   const maxColis = Math.max(...colisData);
   const maxCrbt = Math.max(...crbtData);
   const scalingFactor = maxColis > 0 ? maxColis / maxCrbt : 1;
@@ -81,7 +79,7 @@ const TrendsChart = ({ data = [], loading = false }) => {
             },
             {
               data: normalizedCrbtData,
-              label: 'Total CRBT (normalisé)',
+              label: 'Total CRBT',
               color: '#10B981',
               curve: 'linear',
             },

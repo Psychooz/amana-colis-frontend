@@ -1,11 +1,9 @@
-// src/components/statistics/ShipmentStatusChart.jsx
 import React from 'react';
 import { PieChart } from '@mui/x-charts/PieChart';
 import { Card, CardContent, CardHeader, CircularProgress, Box, Typography } from '@mui/material';
 import { LocalShipping } from '@mui/icons-material';
 
 const ShipmentStatusChart = ({ data = {}, loading = false }) => {
-  // Transform the status data to shipment categories
   const getShipmentData = () => {
     const enCours = (data['En transit'] || 0) + (data['Déposé'] || 0) + (data['2ème présentation'] || 0);
     const retourne = data['Envoi retourné'] || 0;

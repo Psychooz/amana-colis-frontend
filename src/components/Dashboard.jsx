@@ -1,5 +1,5 @@
 // src/components/Dashboard.jsx
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { colisAPI } from '../services/api';
 import { useFilters } from '../hooks/useFilters';
@@ -27,10 +27,14 @@ const Dashboard = () => {
     cityStats: {}
   });
   const [loading, setLoading] = useState(true);
+  
+  // Track the current active filters from either tab
+  const [currentFilters, setCurrentFilters] = useState({});
+  const [hasFiltersApplied, setHasFiltersApplied] = useState(false);
 
-  // Use the shared filters hook for statistics
+  // Use the shared filters hook for statistics tab
   const {
-    filters,
+    filters: statisticsFilters,
     showFilters,
     handleFilterChange,
     handleResetFilters,
@@ -40,22 +44,26 @@ const Dashboard = () => {
     getDateRangeForStats
   } = useFilters();
 
-  // Fetch statistics data
-  const fetchStats = async (useFilters = false) => {
+  // Fetch statistics data with current filters
+  const fetchStats = useCallback(async (filters = {}, isFiltered = false) => {
     if (!user?.id) return;
     
     setLoading(true);
     try {
-      let startDate, endDate;
+      let response;
       
-      if (useFilters && hasActiveFilters()) {
-        // Use filters for date range
-        const dateRange = getDateRangeForStats();
-        startDate = dateRange.startDate;
-        endDate = dateRange.endDate;
+      if (isFiltered && Object.keys(filters).length > 0) {
+        console.log('Calling filtered statistics with params:', filters);
+        response = await colisAPI.getFilteredStatistics(user.id, filters);
+      } else {
+        // Use regular statistics API for unfiltered data or date range only
+        const dateRange = filters.dateDepotStart && filters.dateDepotEnd ? 
+          { startDate: filters.dateDepotStart, endDate: filters.dateDepotEnd } : 
+          { startDate: undefined, endDate: undefined };
+        console.log('Calling regular statistics with date range:', dateRange);
+        response = await colisAPI.getStatistics(user.id, dateRange.startDate, dateRange.endDate);
       }
       
-      const response = await colisAPI.getStatistics(user.id, startDate, endDate);
       setStats({
         totalColis: response.data.totalColis || 0,
         totalEnvoisPeriode: response.data.totalEnvoisPeriode || 0,
@@ -70,20 +78,43 @@ const Dashboard = () => {
     } finally {
       setLoading(false);
     }
-  };
-
-  useEffect(() => {
-    fetchStats(hasActiveFilters());
   }, [user?.id]);
 
-  // Handle filter changes for statistics
-  const handleApplyFilters = () => {
-    fetchStats(true);
+  // Initial load
+  useEffect(() => {
+    fetchStats({}, false);
+  }, [fetchStats]);
+
+  // Handle filter changes from Statistics tab
+  const handleApplyStatisticsFilters = () => {
+    const filters = getFilterParams();
+    setCurrentFilters(filters);
+    setHasFiltersApplied(hasActiveFilters());
+    console.log('Applying statistics filters:', filters);
+    fetchStats(filters, hasActiveFilters());
   };
 
-  const handleResetFiltersAndRefresh = () => {
+  const handleResetStatisticsFilters = () => {
     handleResetFilters();
-    fetchStats(false);
+    setCurrentFilters({});
+    setHasFiltersApplied(false);
+    console.log('Resetting statistics filters');
+    fetchStats({}, false);
+  };
+
+  // Callback function for ColisTable to update top cards when filters are applied
+  const handleTableFiltersApplied = useCallback((filters, isFiltered) => {
+    console.log('Table filters applied:', filters, 'isFiltered:', isFiltered);
+    setCurrentFilters(filters);
+    setHasFiltersApplied(isFiltered);
+    fetchStats(filters, isFiltered);
+  }, [fetchStats]);
+
+  // Handle tab switching - preserve filter state
+  const handleTabChange = (tab) => {
+    setActiveTab(tab);
+    // When switching tabs, keep the current filter state for the top cards
+    // No need to refetch here as the stats should already reflect current filters
   };
 
   // Calculate delivery rate for the KPI card
@@ -98,13 +129,16 @@ const Dashboard = () => {
       <Header />
       <main>
         <div className="container-fluid">
-          {/* Top 3 Cards - Always visible */}
+          {/* Top 3 Cards - Always visible and reactive to filters from both tabs */}
           <div className="row g-3 mb-4">
             <div className="col-md-4">
               <div className="card text-center h-100" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white' }}>
                 <div className="card-body">
                   <div className="d-flex justify-content-between align-items-center mb-2">
-                    <h6 className="card-title mb-0">Total Colis</h6>
+                    <h6 className="card-title mb-0">
+                      Total Colis
+                      {hasFiltersApplied && <small className="ms-1">(filtré)</small>}
+                    </h6>
                     <span style={{ fontSize: '1.5rem' }}>📦</span>
                   </div>
                   {loading ? (
@@ -120,7 +154,10 @@ const Dashboard = () => {
               <div className="card text-center h-100" style={{ background: 'linear-gradient(135deg, #11998e 0%, #38ef7d 100%)', color: 'white' }}>
                 <div className="card-body">
                   <div className="d-flex justify-content-between align-items-center mb-2">
-                    <h6 className="card-title mb-0">Total CRBT</h6>
+                    <h6 className="card-title mb-0">
+                      Total CRBT
+                      {hasFiltersApplied && <small className="ms-1">(filtré)</small>}
+                    </h6>
                     <span style={{ fontSize: '1.5rem' }}>💰</span>
                   </div>
                   {loading ? (
@@ -136,7 +173,10 @@ const Dashboard = () => {
               <div className="card text-center h-100" style={{ background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)', color: 'white' }}>
                 <div className="card-body">
                   <div className="d-flex justify-content-between align-items-center mb-2">
-                    <h6 className="card-title mb-0">Taux de Livraison</h6>
+                    <h6 className="card-title mb-0">
+                      Taux de Livraison
+                      {hasFiltersApplied && <small className="ms-1">(filtré)</small>}
+                    </h6>
                     <span style={{ fontSize: '1.5rem' }}>📊</span>
                   </div>
                   {loading ? (
@@ -156,24 +196,25 @@ const Dashboard = () => {
                 <li className="nav-item" role="presentation">
                   <button
                     className={`nav-link ${activeTab === 'envois' ? 'active' : ''}`}
-                    onClick={() => setActiveTab('envois')}
+                    onClick={() => handleTabChange('envois')}
                     type="button"
                     role="tab"
                   >
                     <i className="bi bi-table me-2"></i>
                     Mes Envois
+                    {hasFiltersApplied && activeTab !== 'envois' && <span className="badge bg-danger ms-1">!</span>}
                   </button>
                 </li>
                 <li className="nav-item" role="presentation">
                   <button
                     className={`nav-link ${activeTab === 'statistiques' ? 'active' : ''}`}
-                    onClick={() => setActiveTab('statistiques')}
+                    onClick={() => handleTabChange('statistiques')}
                     type="button"
                     role="tab"
                   >
                     <i className="bi bi-graph-up me-2"></i>
                     Statistiques
-                    {hasActiveFilters() && <span className="badge bg-danger ms-1">!</span>}
+                    {hasFiltersApplied && <span className="badge bg-danger ms-1">!</span>}
                   </button>
                 </li>
               </ul>
@@ -185,7 +226,7 @@ const Dashboard = () => {
             {/* Envois Tab */}
             {activeTab === 'envois' && (
               <div className="tab-pane fade show active">
-                <ColisTable />
+                <ColisTable onFiltersApplied={handleTableFiltersApplied} />
               </div>
             )}
 
@@ -194,10 +235,10 @@ const Dashboard = () => {
               <div className="tab-pane fade show active">
                 {/* Filters Section for Statistics */}
                 <AdvancedFilters
-                  filters={filters}
+                  filters={statisticsFilters}
                   onFilterChange={handleFilterChange}
-                  onApplyFilters={handleApplyFilters}
-                  onResetFilters={handleResetFiltersAndRefresh}
+                  onApplyFilters={handleApplyStatisticsFilters}
+                  onResetFilters={handleResetStatisticsFilters}
                   showFilters={showFilters}
                   onToggleFilters={handleToggleFilters}
                   loading={loading}
@@ -243,7 +284,7 @@ const Dashboard = () => {
                 </div>
 
                 {/* Statistics Summary Card */}
-                {hasActiveFilters() && (
+                {hasFiltersApplied && (
                   <div className="row">
                     <div className="col-12">
                       <div className="card">
@@ -255,31 +296,36 @@ const Dashboard = () => {
                         </div>
                         <div className="card-body">
                           <div className="row g-2">
-                            {filters.dateDepotStart && (
+                            {currentFilters.dateDepotStart && (
                               <div className="col-auto">
                                 <span className="badge bg-primary">
-                                  Période: {filters.dateDepotStart} 
-                                  {filters.dateDepotEnd && ` - ${filters.dateDepotEnd}`}
+                                  Période: {currentFilters.dateDepotStart} 
+                                  {currentFilters.dateDepotEnd && ` - ${currentFilters.dateDepotEnd}`}
                                 </span>
                               </div>
                             )}
-                            {filters.status && (
+                            {currentFilters.status && (
                               <div className="col-auto">
-                                <span className="badge bg-secondary">Statut: {filters.status}</span>
+                                <span className="badge bg-secondary">Statut: {currentFilters.status}</span>
                               </div>
                             )}
-                            {filters.destination && (
+                            {currentFilters.destination && (
                               <div className="col-auto">
-                                <span className="badge bg-secondary">Destination: {filters.destination}</span>
+                                <span className="badge bg-secondary">Destination: {currentFilters.destination}</span>
                               </div>
                             )}
-                            {filters.isPayed && (
+                            {currentFilters.isPayed && (
                               <div className="col-auto">
                                 <span className="badge bg-secondary">
-                                  Paiement: {filters.isPayed === 'true' ? 'Payé' : 'Impayé'}
+                                  Paiement: {currentFilters.isPayed === 'true' ? 'Payé' : 'Impayé'}
                                 </span>
                               </div>
                             )}
+                            <div className="col-auto">
+                              <span className="badge bg-info">
+                                Total filtré: {stats.totalColis} colis
+                              </span>
+                            </div>
                           </div>
                         </div>
                       </div>

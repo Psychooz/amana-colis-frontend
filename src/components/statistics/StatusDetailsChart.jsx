@@ -1,4 +1,3 @@
-// src/components/statistics/StatusDetailsChart.jsx
 import React from 'react';
 import { PieChart } from '@mui/x-charts/PieChart';
 import { Card, CardContent, CardHeader, CircularProgress, Box, Typography } from '@mui/material';
