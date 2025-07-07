@@ -50,6 +50,11 @@ body {
   overflow: hidden;
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
 .status-badge {
   font-size: 0.75rem;
   padding: 0.25rem 0.5rem;

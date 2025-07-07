@@ -36,26 +36,26 @@ const Dashboard = () => {
     handleResetFilters,
     handleToggleFilters,
     hasActiveFilters,
-    getFilterParams
+    getFilterParams,
+    getDateRangeForStats
   } = useFilters();
 
-  // Fetch statistics data - UPDATED METHOD
+  // Fetch statistics data
   const fetchStats = async (useFilters = false) => {
     if (!user?.id) return;
     
     setLoading(true);
     try {
-      let response;
+      let startDate, endDate;
       
       if (useFilters && hasActiveFilters()) {
-        // Use the NEW filtered statistics endpoint
-        const filterParams = getFilterParams();
-        response = await colisAPI.getFilteredStatistics(user.id, filterParams);
-      } else {
-        // Use the original statistics endpoint (no filters)
-        response = await colisAPI.getStatistics(user.id);
+        // Use filters for date range
+        const dateRange = getDateRangeForStats();
+        startDate = dateRange.startDate;
+        endDate = dateRange.endDate;
       }
       
+      const response = await colisAPI.getStatistics(user.id, startDate, endDate);
       setStats({
         totalColis: response.data.totalColis || 0,
         totalEnvoisPeriode: response.data.totalEnvoisPeriode || 0,
@@ -72,19 +72,18 @@ const Dashboard = () => {
     }
   };
 
-  // Initial load - fetch unfiltered stats
   useEffect(() => {
-    fetchStats(false);
+    fetchStats(hasActiveFilters());
   }, [user?.id]);
 
-  // Handle filter changes for statistics - UPDATED METHODS
+  // Handle filter changes for statistics
   const handleApplyFilters = () => {
-    fetchStats(true); // Fetch with filters applied
+    fetchStats(true);
   };
 
   const handleResetFiltersAndRefresh = () => {
     handleResetFilters();
-    fetchStats(false); // Fetch without filters
+    fetchStats(false);
   };
 
   // Calculate delivery rate for the KPI card
@@ -99,15 +98,13 @@ const Dashboard = () => {
       <Header />
       <main>
         <div className="container-fluid">
+          {/* Top 3 Cards - Always visible */}
           <div className="row g-3 mb-4">
             <div className="col-md-4">
               <div className="card text-center h-100" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white' }}>
                 <div className="card-body">
                   <div className="d-flex justify-content-between align-items-center mb-2">
-                    <h6 className="card-title mb-0">
-                      Total Colis
-                      {hasActiveFilters() && <small className="d-block text-light opacity-75">(filtré)</small>}
-                    </h6>
+                    <h6 className="card-title mb-0">Total Colis</h6>
                     <span style={{ fontSize: '1.5rem' }}>📦</span>
                   </div>
                   {loading ? (
@@ -123,10 +120,7 @@ const Dashboard = () => {
               <div className="card text-center h-100" style={{ background: 'linear-gradient(135deg, #11998e 0%, #38ef7d 100%)', color: 'white' }}>
                 <div className="card-body">
                   <div className="d-flex justify-content-between align-items-center mb-2">
-                    <h6 className="card-title mb-0">
-                      Total CRBT
-                      {hasActiveFilters() && <small className="d-block text-light opacity-75">(filtré)</small>}
-                    </h6>
+                    <h6 className="card-title mb-0">Total CRBT</h6>
                     <span style={{ fontSize: '1.5rem' }}>💰</span>
                   </div>
                   {loading ? (
@@ -142,10 +136,7 @@ const Dashboard = () => {
               <div className="card text-center h-100" style={{ background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)', color: 'white' }}>
                 <div className="card-body">
                   <div className="d-flex justify-content-between align-items-center mb-2">
-                    <h6 className="card-title mb-0">
-                      Taux de Livraison
-                      {hasActiveFilters() && <small className="d-block text-light opacity-75">(filtré)</small>}
-                    </h6>
+                    <h6 className="card-title mb-0">Taux de Livraison</h6>
                     <span style={{ fontSize: '1.5rem' }}>📊</span>
                   </div>
                   {loading ? (
@@ -158,6 +149,7 @@ const Dashboard = () => {
             </div>
           </div>
 
+          {/* Navigation Tabs */}
           <div className="row mb-4">
             <div className="col-12">
               <ul className="nav nav-tabs nav-justified" id="dashboardTabs" role="tablist">
@@ -188,15 +180,19 @@ const Dashboard = () => {
             </div>
           </div>
 
+          {/* Tab Content */}
           <div className="tab-content">
+            {/* Envois Tab */}
             {activeTab === 'envois' && (
               <div className="tab-pane fade show active">
                 <ColisTable />
               </div>
             )}
 
+            {/* Statistiques Tab */}
             {activeTab === 'statistiques' && (
               <div className="tab-pane fade show active">
+                {/* Filters Section for Statistics */}
                 <AdvancedFilters
                   filters={filters}
                   onFilterChange={handleFilterChange}
@@ -208,6 +204,7 @@ const Dashboard = () => {
                   title="Filtres pour les statistiques"
                 />
 
+                {/* Three Statistical Charts Row */}
                 <div className="row g-3 mb-4">
                   <div className="col-md-4">
                     <StatusDetailsChart 
@@ -229,6 +226,7 @@ const Dashboard = () => {
                   </div>
                 </div>
 
+                {/* Bottom Row - Trends Chart and Map */}
                 <div className="row g-3 mb-4">
                   <div className="col-md-8">
                     <TrendsChart 
@@ -244,71 +242,41 @@ const Dashboard = () => {
                   </div>
                 </div>
 
+                {/* Statistics Summary Card */}
                 {hasActiveFilters() && (
                   <div className="row">
                     <div className="col-12">
                       <div className="card">
                         <div className="card-header">
                           <h6 className="mb-0">
-                            <i className="bi bi-funnel-fill me-2"></i>
-                            Filtres actifs
+                            <i className="bi bi-info-circle me-2"></i>
+                            Résumé des filtres appliqués
                           </h6>
                         </div>
                         <div className="card-body">
                           <div className="row g-2">
-                            {filters.codeEnvoi && (
+                            {filters.dateDepotStart && (
                               <div className="col-auto">
                                 <span className="badge bg-primary">
-                                  Code: {filters.codeEnvoi}
-                                </span>
-                              </div>
-                            )}
-                            {filters.telDestinataire && (
-                              <div className="col-auto">
-                                <span className="badge bg-primary">
-                                  Tél: {filters.telDestinataire}
+                                  Période: {filters.dateDepotStart} 
+                                  {filters.dateDepotEnd && ` - ${filters.dateDepotEnd}`}
                                 </span>
                               </div>
                             )}
                             {filters.status && (
                               <div className="col-auto">
-                                <span className="badge bg-secondary">
-                                  Statut: {filters.status.replace('_', ' ')}
-                                </span>
+                                <span className="badge bg-secondary">Statut: {filters.status}</span>
                               </div>
                             )}
                             {filters.destination && (
                               <div className="col-auto">
-                                <span className="badge bg-secondary">
-                                  Destination: {filters.destination}
-                                </span>
+                                <span className="badge bg-secondary">Destination: {filters.destination}</span>
                               </div>
                             )}
                             {filters.isPayed && (
                               <div className="col-auto">
                                 <span className="badge bg-secondary">
                                   Paiement: {filters.isPayed === 'true' ? 'Payé' : 'Impayé'}
-                                </span>
-                              </div>
-                            )}
-                            {(filters.dateDepotStart || filters.dateDepotEnd) && (
-                              <div className="col-auto">
-                                <span className="badge bg-info">
-                                  Date dépôt: {filters.dateDepotStart || '...'} - {filters.dateDepotEnd || '...'}
-                                </span>
-                              </div>
-                            )}
-                            {(filters.dateStatutStart || filters.dateStatutEnd) && (
-                              <div className="col-auto">
-                                <span className="badge bg-info">
-                                  Date statut: {filters.dateStatutStart || '...'} - {filters.dateStatutEnd || '...'}
-                                </span>
-                              </div>
-                            )}
-                            {(filters.datePaiementStart || filters.datePaiementEnd) && (
-                              <div className="col-auto">
-                                <span className="badge bg-info">
-                                  Date paiement: {filters.datePaiementStart || '...'} - {filters.datePaiementEnd || '...'}
                                 </span>
                               </div>
                             )}
