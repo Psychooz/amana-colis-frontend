@@ -8,16 +8,35 @@ const Header = () => {
     <header className="dashboard-header">
       <div className="container-fluid">
         <div className="row align-items-center">
-          <div className="col-md-6">
-            <div className="d-flex align-items-center">
-              <h3 style={{ color: '#667eea' }}>
+          <div className="col-md-4">
+          </div>
+          <div className="col-md-4">
+            <div className="d-flex justify-content-center align-items-center">
+              <img 
+                src="src\assets\amana.png" 
+                alt="AMANA" 
+                style={{ 
+                  height: '70px', 
+                  width: 'auto',
+                  objectFit: 'contain'
+                }}
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                  e.target.nextSibling.style.display = 'block';
+                }}
+              />
+              <h3 
+                style={{ 
+                  color: '#667eea', 
+                  display: 'none',
+                  margin: 0
+                }}
+              >
                 AMANA
               </h3>
-              <span className="ms-2 text-muted">Dashboard</span>
             </div>
           </div>
-
-          <div className="col-md-6">    
+          <div className="col-md-4">    
             <div className="d-flex justify-content-end">
               <div className="user-info">
                 <div className="text-end">

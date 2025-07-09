@@ -1,9 +1,10 @@
 import React, { useMemo } from 'react';
-import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, CircleMarker, Popup, useMap,GeoJSON } from 'react-leaflet';
 import { getCitiesWithData } from  '../../utils/moroccanCities';
 import 'leaflet/dist/leaflet.css';
+import moroccoGeoJson from '../../data/Morocco.json';
 
-const SetMapBounds = () => {
+const SetMapBounds = () => {  
   const map = useMap();
   
   React.useEffect(() => {
@@ -14,12 +15,20 @@ const SetMapBounds = () => {
       //[20.73, -18.41]
     ];
     map.fitBounds(moroccanBounds, { padding: [10, 10] });
+    const restrictedBounds = [
+      [36.5, -0.5],
+      [20.0, -19.0] 
+    ];
+    map.setMaxBounds(restrictedBounds);
+    map.setMinZoom(5);
+    map.setMaxZoom(9);
   }, [map]);
 
   return null;
 };
 
 const MoroccoMapLeaflet = ({ data = {}, loading = false }) => {
+  const MaxCitiesToShow = 10;
   const allCities = useMemo(() => getCitiesWithData(data), [data]);
 
   const citiesWithData = useMemo(() => {
@@ -89,7 +98,7 @@ const MoroccoMapLeaflet = ({ data = {}, loading = false }) => {
         <div style={{ height: '350px', position: 'relative' }}>
           <MapContainer
             center={[32, -6.5]}
-            zoom={6}
+            zoom={7}
             style={{ height: '100%', width: '100%' }}
             zoomControl={true}
             scrollWheelZoom={true}
@@ -98,14 +107,24 @@ const MoroccoMapLeaflet = ({ data = {}, loading = false }) => {
           >
             <SetMapBounds />
             
-            <TileLayer
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-              maxZoom={18}
-            />
-
+            {/* <TileLayer
+              // url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+            /> */}
+            
+            <GeoJSON 
+            data={moroccoGeoJson}
+            style={{
+              color: 'grey',
+              weight: 2,
+              fillColor: 'rgba(255, 0, 0, 0.32)',
+              fillOpacity: 0.4
+            }}
+          />
             {citiesWithData.map((city) => (
               <CircleMarker
                 key={city.name}
+                
                 center={[city.latitude, city.longitude]}
                 radius={city.radius}
                 fillColor={city.color}
@@ -137,15 +156,15 @@ const MoroccoMapLeaflet = ({ data = {}, loading = false }) => {
                   </div>
                 </Popup>
               </CircleMarker>
-            ))}
+            ))
+            }
+            
           </MapContainer>
+          
         </div>
-        
-        {/* Legend and Statistics */}
         <div className="p-3 border-top">
           <div className="row">
             <div className="col-md-6">
-              <small className="fw-bold d-block mb-2">Volume d'envois:</small>
               <div className="d-flex flex-wrap gap-2">
                 <div className="d-flex align-items-center">
                   <div 
@@ -198,7 +217,7 @@ const MoroccoMapLeaflet = ({ data = {}, loading = false }) => {
               <div className="d-flex flex-wrap gap-1">
                 {citiesWithData
                   .sort((a, b) => b.count - a.count)
-                  .slice(0, 4)
+                  .slice(0, 6)
                   .map((city) => (
                     <span 
                       key={city.name} 

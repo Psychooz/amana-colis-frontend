@@ -211,6 +211,10 @@ const ColisTable = ({ onFiltersApplied }) => {
       cell: info => formatDate(info.getValue()),
       enableSorting: true,
     }),
+    columnHelper.accessor('telLivreur', {
+      header: 'Tél livreur',
+      enableSorting: true,
+    }),
     columnHelper.accessor('isPayed', {
       header: 'Payé',
       cell: info => (

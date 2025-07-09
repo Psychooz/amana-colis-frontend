@@ -28,7 +28,7 @@ const Login = () => {
                 login(res.data.client);
             }else{
                 const msgerr = res.data.message || 'Login failed';
-                console.log(msgerr);
+                console.error(msgerr);
                 setError(msgerr);
             }
         }catch(e) {

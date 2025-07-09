@@ -11,10 +11,13 @@ import {
   PaymentStatusChart,
   ShipmentStatusChart,
   TrendsChart,
-  MoroccoMap
+  MoroccoMapLeaflet,
 } from './statistics';
 
+
+
 const Dashboard = () => {
+  const Title = window.title;
   const { user } = useAuth();
   const [activeTab, setActiveTab] = useState('envois');
   const [stats, setStats] = useState({
@@ -53,14 +56,12 @@ const Dashboard = () => {
       let response;
       
       if (isFiltered && Object.keys(filters).length > 0) {
-        console.log('Calling filtered statistics with params:', filters);
         response = await colisAPI.getFilteredStatistics(user.id, filters);
       } else {
         // Use regular statistics API for unfiltered data or date range only
         const dateRange = filters.dateDepotStart && filters.dateDepotEnd ? 
           { startDate: filters.dateDepotStart, endDate: filters.dateDepotEnd } : 
           { startDate: undefined, endDate: undefined };
-        console.log('Calling regular statistics with date range:', dateRange);
         response = await colisAPI.getStatistics(user.id, dateRange.startDate, dateRange.endDate);
       }
       
@@ -80,17 +81,14 @@ const Dashboard = () => {
     }
   }, [user?.id]);
 
-  // Initial load
   useEffect(() => {
     fetchStats({}, false);
   }, [fetchStats]);
 
-  // Handle filter changes from Statistics tab
   const handleApplyStatisticsFilters = () => {
     const filters = getFilterParams();
     setCurrentFilters(filters);
     setHasFiltersApplied(hasActiveFilters());
-    console.log('Applying statistics filters:', filters);
     fetchStats(filters, hasActiveFilters());
   };
 
@@ -98,26 +96,19 @@ const Dashboard = () => {
     handleResetFilters();
     setCurrentFilters({});
     setHasFiltersApplied(false);
-    console.log('Resetting statistics filters');
     fetchStats({}, false);
   };
 
-  // Callback function for ColisTable to update top cards when filters are applied
   const handleTableFiltersApplied = useCallback((filters, isFiltered) => {
-    console.log('Table filters applied:', filters, 'isFiltered:', isFiltered);
     setCurrentFilters(filters);
     setHasFiltersApplied(isFiltered);
     fetchStats(filters, isFiltered);
   }, [fetchStats]);
 
-  // Handle tab switching - preserve filter state
   const handleTabChange = (tab) => {
     setActiveTab(tab);
-    // When switching tabs, keep the current filter state for the top cards
-    // No need to refetch here as the stats should already reflect current filters
   };
 
-  // Calculate delivery rate for the KPI card
   const getDeliveryRate = () => {
     const delivered = stats.statusStats['Envoi livré'] || 0;
     const total = stats.totalColis || 1;
@@ -189,7 +180,6 @@ const Dashboard = () => {
             </div>
           </div>
 
-          {/* Navigation Tabs */}
           <div className="row mb-4">
             <div className="col-12">
               <ul className="nav nav-tabs nav-justified" id="dashboardTabs" role="tablist">
@@ -221,19 +211,15 @@ const Dashboard = () => {
             </div>
           </div>
 
-          {/* Tab Content */}
           <div className="tab-content">
-            {/* Envois Tab */}
             {activeTab === 'envois' && (
               <div className="tab-pane fade show active">
                 <ColisTable onFiltersApplied={handleTableFiltersApplied} />
               </div>
             )}
 
-            {/* Statistiques Tab */}
             {activeTab === 'statistiques' && (
               <div className="tab-pane fade show active">
-                {/* Filters Section for Statistics */}
                 <AdvancedFilters
                   filters={statisticsFilters}
                   onFilterChange={handleFilterChange}
@@ -245,7 +231,6 @@ const Dashboard = () => {
                   title="Filtres pour les statistiques"
                 />
 
-                {/* Three Statistical Charts Row */}
                 <div className="row g-3 mb-4">
                   <div className="col-md-4">
                     <StatusDetailsChart 
@@ -267,7 +252,6 @@ const Dashboard = () => {
                   </div>
                 </div>
 
-                {/* Bottom Row - Trends Chart and Map */}
                 <div className="row g-3 mb-4">
                   <div className="col-md-8">
                     <TrendsChart 
@@ -276,14 +260,13 @@ const Dashboard = () => {
                     />
                   </div>
                   <div className="col-md-4">
-                    <MoroccoMap 
+                    <MoroccoMapLeaflet 
                       data={stats.cityStats}
                       loading={loading}
                     />
                   </div>
                 </div>
 
-                {/* Statistics Summary Card */}
                 {hasFiltersApplied && (
                   <div className="row">
                     <div className="col-12">
