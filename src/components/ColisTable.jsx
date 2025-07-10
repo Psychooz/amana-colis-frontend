@@ -69,7 +69,6 @@ const ColisTable = ({ onFiltersApplied }) => {
           sorting[0]?.desc ? 'desc' : 'asc'
         );
         
-        // Notify Dashboard that no filters are applied
         if (onFiltersApplied) {
           onFiltersApplied({}, false);
         }

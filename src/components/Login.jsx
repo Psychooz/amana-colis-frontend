@@ -43,7 +43,19 @@ const Login = () => {
         <div className='login-container'>
             <div className='login-card'>
             <div className='logo'>
-                <h2>AMANA</h2>
+                <img 
+                src="src\assets\amana.png" 
+                alt="AMANA" 
+                style={{ 
+                  height: '70px', 
+                  width: 'auto',
+                  objectFit: 'contain'
+                }}
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                  e.target.nextSibling.style.display = 'block';
+                }}
+              />
                 <p className="text-muted">Gestion des Colis</p>
             </div>
             <form onSubmit={handleSubmit}>
@@ -68,7 +80,7 @@ const Login = () => {
             </form>
             <div className='mt-3 text-center'>
                 <small>
-                    Test : abd@gmail.com / CDE@gmail.com<br />
+                    <b>Test</b> <br />abd@gmail.com <br /> CDE@gmail.com<br />
                     mdp : password123
                 </small>
             </div>

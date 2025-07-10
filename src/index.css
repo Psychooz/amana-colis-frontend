@@ -75,3 +75,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   padding: 1rem;
   border-top: 1px solid #dee2e6;
 }
+.leaflet-control-attribution {
+  display: none !important;
+}

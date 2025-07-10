@@ -120,7 +120,6 @@ const Dashboard = () => {
       <Header />
       <main>
         <div className="container-fluid">
-          {/* Top 3 Cards - Always visible and reactive to filters from both tabs */}
           <div className="row g-3 mb-4">
             <div className="col-md-4">
               <div className="card text-center h-100" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white' }}>
@@ -311,7 +310,7 @@ const Dashboard = () => {
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div>  
                     </div>
                   </div>
                 )}

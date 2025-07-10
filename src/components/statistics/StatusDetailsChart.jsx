@@ -5,7 +5,7 @@ import { PieChart as PieChartIcon } from '@mui/icons-material';
 
 const StatusDetailsChart = ({ data = {}, loading = false }) => {
   const statusColors = [
-      '#EF4444', // Red
+    '#EF4444', // Red
     '#3B82F6', // Blue
     '#F59E0B', // Orange
     '#10B981', // Green

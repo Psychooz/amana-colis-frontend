@@ -113,14 +113,14 @@ const MoroccoMapLeaflet = ({ data = {}, loading = false }) => {
             /> */}
             
             <GeoJSON 
-            data={moroccoGeoJson}
-            style={{
-              color: 'grey',
-              weight: 2,
-              fillColor: 'rgba(255, 0, 0, 0.32)',
-              fillOpacity: 0.4
-            }}
-          />
+              data={moroccoGeoJson}
+              style={{
+                color: 'grey',
+                weight: 2,
+                fillColor: 'rgba(255, 0, 0, 0.32)',
+                fillOpacity: 0.4
+                }}
+                />
             {citiesWithData.map((city) => (
               <CircleMarker
                 key={city.name}
